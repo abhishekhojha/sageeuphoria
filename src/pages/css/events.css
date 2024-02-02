@@ -23,13 +23,13 @@
 
 .sageEventsCon h2 {
     font-size: 40px;
-    color: #ffffff;
+    color: var(--head);
     font-weight: 400;
 }
 
 .sageEventsCon p {
     font-size: 15px;
-    color: #e9e9e9;
+    color: var(--para);
 }
 
 .sageEventsRight {
@@ -44,6 +44,20 @@
     text-align: left;
     align-items: start;
 }
+.sageEventsHead{
+    padding: 20px 0;
+}
+.sageEventsHead h2 {
+    font-size: 120px;
+    font-family: 'Unbounded', sans-serif;
+    color: var(--head);
+    font-weight: 400;
+}
+
+.sageEventsHead p {
+    font-size: 25px;
+    color: var(--para);
+}
 
 @media screen and (max-width: 768px) {
     .sageEventsCon{
@@ -55,8 +69,15 @@
     .sageEventsIn {
         flex-direction: column;
     }
-    .sageEventsup{
+    .sageEventsup, .sageEventsHead{
         padding: 20px;
+    }
+    .sageEventsHead h2 {
+        font-size: 60px;
+    }
+    
+    .sageEventsHead p {
+        font-size: 15px;
     }
     .sageEventsLeft .sageEventsCon {
         order: 1;

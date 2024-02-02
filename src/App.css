@@ -1,0 +1,44 @@
+.sageeventsaboutus h2 {
+    color: var(--head);
+}
+
+.sageeventsaboutusCon h2 {
+    font-size: 55px;
+}
+
+.sageeventsaboutus p {
+    color: var(--para);
+}
+
+.sageeventsaboutusCon p {
+    font-size: 18px;
+}
+
+.sageeventsaboutusfirst {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.sageeventsaboutusSecond {
+    padding-top: 20px;
+}
+
+@media screen and (max-width: 1024px) {
+    .sageeventsaboutusCon h2 {
+        font-size: 35px;
+    }
+
+    .sageeventsaboutusCon p {
+        font-size: 15px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .sageeventsaboutusfirst {
+        flex-direction: column;
+    }
+    .sageeventsaboutus {
+        padding: 20px;
+    }
+}
