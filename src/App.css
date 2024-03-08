@@ -11,22 +11,16 @@ h6 {
 }
 
 .sageheadercont {
-    /* min-height: calc(100vh - 79px); */
     justify-content: space-between;
     display: flex;
     flex-direction: column;
     padding: 20px 0;
-    /* position: absolute;
-    top: 0;
-    left: 50%;
-    transform: translateX(-50%); */
 }
 
 .sageheaderconthead {
     display: flex;
     flex-direction: column;
     align-items: center;
-    /* gap: 20px; */
     padding: 15px;
 }
 
@@ -50,8 +44,6 @@ h6 {
 
 .sageheadervideo video {
     height: calc(70vh - 79px);
-    /* filter: brightness(0.1); */
-    /* width: 100vw; */
     object-fit: cover;
 }
 
@@ -229,7 +221,6 @@ p {
 }
 
 .img-cnt {
-    /* height: 100%; */
     width: 160%;
     display: flex;
     align-items: center;
@@ -245,7 +236,6 @@ p {
 
 .img {
     display: flex;
-    /* height: 200px; */
     width: 24vmax;
     border-radius: 200px;
     overflow: hidden;
