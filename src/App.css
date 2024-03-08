@@ -1,0 +1,394 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    color: var(--head);
+}
+.App{
+    overflow: hidden;
+}
+
+.sageheader {
+    position: relative;
+}
+
+.sageheadercont {
+    min-height: calc(100vh - 79px);
+    justify-content: space-between;
+    display: flex;
+    flex-direction: column;
+    padding: 40px 0;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.sageheaderconthead {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    padding: 20px;
+}
+
+.sageheaderconthead h1 {
+    font-size: 82px;
+    font-family: 'Unbounded', sans-serif;
+}
+
+.sageheaderconthead p {
+    font-family: 'Unbounded', sans-serif;
+    width: 50%;
+    margin: 0 auto;
+    line-height: 35px;
+}
+
+.sageheadervideo video {
+    filter: brightness(0.1);
+    height: calc(100vh - 79px);
+    object-fit: cover;
+}
+
+.sageheadercontBtn .scroll img {
+    width: 20px;
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    transform: translateX(-50%);
+    animation-name: scroll;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    transition: all 1s;
+}
+
+.sageheadercontBtn .scroll {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    position: relative;
+    padding: 30px 0;
+}
+
+.sageheadercontBtn .scroll p {
+    font-size: 15px;
+}
+
+.sageheadercontBtn {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+@keyframes scroll {
+    0% {
+        bottom: 10px;
+    }
+
+    25% {
+        bottom: 5px;
+    }
+
+    50% {
+        bottom: 0px;
+    }
+
+    75% {
+        bottom: 5px;
+    }
+
+    100% {
+        bottom: 10px;
+    }
+}
+.sageeventsaboutus{
+    padding-top: 100px;
+}
+.sageeventsaboutusCon h2 {
+    font-size: 55px;
+}
+
+p {
+    color: var(--para);
+    font-size: 18px;
+}
+
+.sageeventsaboutusfirst {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.sageeventsaboutusSecond {
+    padding-top: 20px;
+}
+
+.sagepasseshead h2,
+.sageourteamhead h2 {
+    font-size: 75px;
+    font-family: 'Unbounded', sans-serif;
+    text-align: center;
+}
+
+.sagepassescon {
+    display: flex;
+    gap: 20px;
+    padding: 20px 0;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.sagepassesconin .sagepassesconinImage h3 {
+    font-family: 'Unbounded', sans-serif;
+    font-size: 25px;
+    font-weight: 400;
+}
+
+.sagepassesconinImage {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+}
+
+.sagepassesconin {
+    display: grid;
+    gap: 20px;
+}
+
+.sagepasses {
+    padding: 30px 0;
+    margin-top: 80px;
+}
+
+.sagepassesintro {
+    display: flex;
+    gap: 15px;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px 30px;
+}
+
+.sagepassesintro h3 {
+    font-family: 'Unbounded', sans-serif;
+    font-size: 35px;
+    font-weight: 400;
+}
+
+.sageourteammember {
+    width: 200px;
+    height: 200px;
+    position: relative;
+    border-radius: 50%;
+    overflow: hidden;
+    display: flex;
+    color: white;
+}
+.sageourteammember img{
+    cursor: pointer;
+    transition: all .5s;
+}
+.sageourteammember img:hover{
+    transform: scale(1.1);
+}
+
+.sageourteammembers {
+    color: white;
+    display: flex;
+    gap: 30px;
+    padding-top: 30px;
+    justify-content: center;
+}
+.sageourteammembers p{
+    padding-top: 10px;
+    width: 100%;
+    text-align: center;
+
+}
+.sageourteam {
+    margin-top: 70px;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 100px;
+    gap: 20px;
+}
+
+.top {
+    overflow: hidden;
+}
+
+.img-cnt {
+    /* height: 100%; */
+    width: 160%;
+    display: flex;
+    align-items: center;
+}
+
+.marquee {
+    animation: marquee 10s linear infinite;
+}
+
+.marquee-2 {
+    animation: marquee2 10s linear infinite;
+}
+
+.img {
+    display: flex;
+    /* height: 200px; */
+    width: 24vmax;
+    border-radius: 200px;
+    overflow: hidden;
+    margin: 2vmax;
+}
+
+.img img {
+    width: 100%;
+    height: 100%;
+}
+
+@keyframes marquee {
+    0% {
+        transform: translate3d(0, 0, 0);
+    }
+
+    100% {
+        transform: translate3d(-40%, 0, 0);
+    }
+}
+
+@keyframes marquee2 {
+    0% {
+        transform: translate3d(-50%, 0, 0);
+    }
+
+    100% {
+        transform: translate3d(0%, 0, 0);
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .img-cnt {
+        width: 500%;
+    }
+    .sageheadercont {
+        min-height: calc(100vh - 62px);
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .sageheadercont {
+        position: static;
+        transform: translateX(0);
+    }
+    .sageeventsaboutus{
+        padding-top: 100px;
+    }
+
+    .sageheaderconthead h1 {
+        font-size: 60px;
+    }
+
+    .sageeventsaboutusCon h2 {
+        font-size: 35px;
+    }
+
+    p {
+        font-size: 15px;
+    }
+
+    .sagepasseshead h2,
+    .sageourteamhead h2 {
+        font-size: 50px;
+    }
+
+    .sagepassesintro h3 {
+        font-size: 25px;
+    }
+
+    .sagepassescon {
+        flex-direction: column;
+    }
+
+    .sagepassesconinconsec {
+        order: 1;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .sageheaderconthead {
+        padding: 0 20px;
+    }
+
+    .sageheadercontBtn {
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .sageheadercont {
+        min-height: 100%;
+        gap: 30px;
+    }
+
+    .sageheaderconthead p {
+        line-height: normal;
+    }
+
+    .sageheadervideo video {
+        filter: brightness(1);
+        height: 100%;
+    }
+
+    .sageheadercontBtn .scroll {
+        display: none;
+    }
+
+    .sageheaderconthead h1 {
+        font-size: 25px;
+    }
+
+    .sageheaderconthead p {
+        width: 100%;
+        padding: 0 20px;
+    }
+
+    .sageeventsaboutusfirst {
+        flex-direction: column;
+    }
+    .sageeventsaboutus,
+    .sagepasses {
+        padding: 20px;
+    }
+    .sageeventsaboutus{
+        padding-top: 100px;
+    }
+    .sagepasseshead h2,
+    .sageourteamhead h2 {
+        font-size: 25px;
+    }
+
+    .sagepassesintro h3 {
+        font-size: 16px;
+    }
+
+    .sagepassesintro {
+        padding: 20px 0;
+    }
+
+    .sagepasses,
+    .sageourteam {
+        margin-top: 30px;
+    }
+
+    .sageourteammembers {
+        flex-direction: column;
+        align-items: center;
+    }
+}

@@ -1,0 +1,95 @@
+.sageEventsIn {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.sageEventsConin {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    justify-content: center;
+    align-items: end;
+}
+.sageEventsCon{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    justify-content: center;
+    width: 35%;
+}
+.sageEvents {
+    display: grid;
+    gap: 20px;
+    padding-top: 100px;
+}
+
+.sageEventsImage {
+    width: 65%;
+}
+
+.sageEventsCon h2 {
+    font-size: 40px;
+    color: var(--head);
+    font-weight: 400;
+}
+
+.sageEventsCon p {
+    font-size: 15px;
+    color: var(--para);
+}
+
+.sageEventsRight {
+    text-align: right;
+}
+
+.sageEventsRight .sageEventsCon {
+    align-items: end;
+}
+
+.sageEventsLeft .sageEventsConin {
+    text-align: left;
+    align-items: start;
+}
+.sageEventsHead{
+    padding: 20px 0;
+}
+.sageEventsHead h2 {
+    font-size: 120px;
+    font-family: 'Unbounded', sans-serif;
+    color: var(--head);
+    font-weight: 400;
+}
+
+.sageEventsHead p {
+    font-size: 25px;
+    color: var(--para);
+}
+.sageEventsConin li {
+    color: var(--para);
+    list-style: none;
+}
+@media screen and (max-width: 768px) {
+    .sageEventsCon{
+        width: 100%;
+    } 
+    .sageEventsImage {
+        width: 100%;
+    }
+    .sageEventsIn {
+        flex-direction: column;
+    }
+    .sageEventsup, .sageEventsHead{
+        padding: 20px;
+    }
+    .sageEventsHead h2 {
+        font-size: 60px;
+    }
+    
+    .sageEventsHead p {
+        font-size: 15px;
+    }
+    .sageEventsLeft .sageEventsCon {
+        order: 1;
+    }
+}
