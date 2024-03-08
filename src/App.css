@@ -10,20 +10,16 @@ h6 {
     overflow: hidden;
 }
 
-.sageheader {
-    position: relative;
-}
-
 .sageheadercont {
-    min-height: calc(100vh - 79px);
+    /* min-height: calc(100vh - 79px); */
     justify-content: space-between;
     display: flex;
     flex-direction: column;
     padding: 40px 0;
-    position: absolute;
+    /* position: absolute;
     top: 0;
     left: 50%;
-    transform: translateX(-50%);
+    transform: translateX(-50%); */
 }
 
 .sageheaderconthead {
@@ -41,15 +37,16 @@ h6 {
 
 .sageheaderconthead p {
     font-family: 'Unbounded', sans-serif;
-    width: 50%;
+    width: 80%;
+    text-align: center;
     margin: 0 auto;
     line-height: 35px;
 }
 
 .sageheadervideo video {
-    filter: brightness(0.1);
-    height: calc(100vh - 79px);
-    object-fit: cover;
+    height: calc(55vh - 79px);
+    /* filter: brightness(0.1);
+    object-fit: cover; */
 }
 
 .sageheadercontBtn .scroll img {

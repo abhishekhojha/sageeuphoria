@@ -20,13 +20,7 @@ export default function Home() {
     <>
       <div>
         <div className="sageheader">
-          <div className="sageheadervideo">
-            <video width="100%" height="100%" autoPlay={true} loop muted>
-              <source src="./gojo.mp4" type="video/mp4" />
-            </video>
-          </div>
-          <div className="sageheadercont container">
-            <Reveal>
+        <Reveal>
               <div className="sageheaderconthead">
                 <h1>SAGE EUPHORIA</h1>
                 <p>
@@ -35,6 +29,13 @@ export default function Home() {
                 </p>
               </div>
             </Reveal>
+          <div className="sageheadervideo">
+            <video width="100%" height="100%" autoPlay={true} loop muted>
+              <source src="./gojo.mp4" type="video/mp4" />
+            </video>
+          </div>
+          <div className="sageheadercont container">
+           
             <Reveal>
               <div className="sageheadercontBtn">
                 <a href="/#" className="sagebuttons">
