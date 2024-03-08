@@ -30,7 +30,7 @@ export default function Home() {
               </div>
             </Reveal>
           <div className="sageheadervideo">
-            <video width="100%" height="100%" autoPlay={true} loop muted>
+            <video  autoPlay={true} loop muted>
               <source src="./gojo.mp4" type="video/mp4" />
             </video>
           </div>
@@ -43,7 +43,7 @@ export default function Home() {
                 </a>
                 <div className="scroll">
                   <p>Scroll</p>
-                  <img src="./down.png" alt="" />
+                  <img style={{filter: "invert(1)"}} src="./down.png" alt="" />
                 </div>
                 <a href="/#" className="sagebuttons">
                   Get your passes
