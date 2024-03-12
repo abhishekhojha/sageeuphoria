@@ -3,8 +3,8 @@ import "./css/events.css";
 import "./css/gallery.css";
 import XReveal from "../anime/X";
 import Reveal from "../anime/Animation";
-import Data1 from './Day1.json';
-import Data2 from './Day2.json';
+import Data1 from "./Day1.json";
+import Data2 from "./Day2.json";
 
 export default function Gallery() {
   const [Day1, setDay1] = useState(Data1);
@@ -25,34 +25,32 @@ export default function Gallery() {
           </div>
         </Reveal>
         <div className="sageEventsup sageEventsRight">
-            <h2>Day 1</h2>
+          <h2>Day 1</h2>
           <div className="sageGalleryIn">
-            {Day1.splice(0,4).map((e, i) => (
-              <XReveal>
+            {Day1.splice(0, 4).map((e, i) => (
+              <XReveal key={i}>
                 <iframe
                   width="500"
                   height="315"
                   src={e.url}
-                  frameborder="0"
+                  frameBorder="0"
                   allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-                  allowfullscreen
+                  allowFullScreen
                 ></iframe>
               </XReveal>
             ))}
           </div>
         </div>
         <div className="sageEventsup sageEventsRight">
-            <h2>Day 2</h2>
+          <h2>Day 2</h2>
           <div className="sageGalleryIn">
-            {Day2.splice(0,4).map((e, i) => (
-              <XReveal>
+            {Day2.splice(0, 4).map((e, i) => (
+              <XReveal key={i}>
                 <iframe
-                  width="500"
-                  height="315"
                   src={e.url}
-                  frameborder="0"
+                  frameBorder="0"
                   allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-                  allowfullscreen
+                  allowFullScreen
                 ></iframe>
               </XReveal>
             ))}

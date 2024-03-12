@@ -4,3 +4,8 @@
     gap: 30px;
     flex-wrap: wrap;
 }
+
+.sageGalleryIn iframe{
+    width: 30vmax;
+    height: 15vmax;
+}
