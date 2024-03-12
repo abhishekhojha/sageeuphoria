@@ -27,7 +27,7 @@ export default function Gallery() {
         <div className="sageEventsup sageEventsRight">
             <h2>Day 1</h2>
           <div className="sageGalleryIn">
-            {Day1.map((e, i) => (
+            {Day1.splice(0,4).map((e, i) => (
               <XReveal>
                 <iframe
                   width="500"
@@ -44,7 +44,7 @@ export default function Gallery() {
         <div className="sageEventsup sageEventsRight">
             <h2>Day 2</h2>
           <div className="sageGalleryIn">
-            {Day2.map((e, i) => (
+            {Day2.splice(0,4).map((e, i) => (
               <XReveal>
                 <iframe
                   width="500"

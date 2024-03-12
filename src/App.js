@@ -1,13 +1,16 @@
+import { Suspense, lazy } from "react";
 import "./App.css";
 import Home from "./pages/Home";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Navbar from "./components/Navbar";
 import Events from "./pages/Events";
-import Gallery from "./pages/Gallery";
 import Footer from "./components/Footer";
+
+const Gallery = lazy(() => import("./pages/Gallery"));
+
 function App() {
   return (
-    <div className="App">
+    <Suspense fallback={<>Loading...</>} className="App">
       <BrowserRouter>
         <Navbar />
         <Routes>
@@ -17,7 +20,7 @@ function App() {
         </Routes>
         <Footer />
       </BrowserRouter>
-    </div>
+    </Suspense>
   );
 }
 
