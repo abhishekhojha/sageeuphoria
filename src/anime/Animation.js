@@ -17,7 +17,7 @@ const Reveal = ({ children, width }) => {
     }, [isInView, mainControls]);
 
     return (
-        <div style={{  }}>
+        <div className="animationOverFlow" style={{  }}>
             <motion.div
                 ref={ref}
                 variants={{

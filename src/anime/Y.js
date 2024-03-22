@@ -17,7 +17,7 @@ const YReveal = ({ children, width }) => {
     }, [isInView, mainControls]);
 
     return (
-        <div style={{  }}>
+        <div style={{ overflow:"hidden" }}>
             <motion.div
                 ref={ref}
                 variants={{
