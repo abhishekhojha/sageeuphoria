@@ -73,22 +73,7 @@ export default function Home() {
               </div>
               <div className="sageeventsaboutusSecond">
                 <p>
-                  The primary objective of college fests is to provide students
-                  with an opportunity to engage with each other, build
-                  relationships, and explore their creative and academic
-                  interests. It is a time to showcase student’s talents, as well
-                  as to learn new skills, create new memories, and enjoy some
-                  much-needed fun. College fests provide students with an
-                  exciting and unique platform to engage with their peers, while
-                  also developing their professional and academic skills.
-                  Moreover, college fests are a great way for students to gain
-                  valuable experience and make important connections with people
-                  from diverse backgrounds. Through college fests, students can
-                  engage in a wide variety of activities, from art competitions
-                  and performances to sports and debates. Ultimately, college
-                  fests provide an invaluable opportunity for students to
-                  explore their interests, create long-lasting relationships,
-                  and gain valuable skills and experiences.
+                SAGE Euphoria 2.0 presents an unforgettable celebration of college life! From March 11th to 13th, 2024, immerse yourself in a dynamic blend of entertainment, education, and camaraderie. Experience a diverse range of activities, including technical, cultural, literary , E-sports competitions. Dive into special events like the entrepreneurship conclave, creator's conclave, Shark Tank Sage, and electrifying live concerts. Engage in enriching workshops spanning various fields. SAGE Euphoria offers the perfect platform to forge enduring memories, expand your skill set, connect with peers, and revel in the essence of college life. Don't miss out on this opportunity to embrace the spirit of learning, growth, and celebration!
                 </p>
               </div>
             </>
@@ -122,7 +107,7 @@ export default function Home() {
               <div className="sagepassesconin">
                 <div className="sagepassesconinImage">
                   <img src="./artist/1.jpg" alt="" />
-                  <h3>DJ PERCH</h3>
+                  <h3>AKHIL SACHDEVA</h3>
                 </div>
                 <div className="sagepassesconincon">
                   <p>
@@ -137,7 +122,7 @@ export default function Home() {
                 </div>
               </div>
             </XReveal>
-            <div className="sagepassesconin">
+            {/* <div className="sagepassesconin">
               <div className="sagepassesconincon sagepassesconinconsec">
                 <p>
                   Sahil Sharma, better known by his stage name Zaeden, is a
@@ -153,12 +138,12 @@ export default function Home() {
                 <img src="./artist/2.jpg" alt="" />
                 <h3>ZAEDEN</h3>
               </div>
-            </div>
+            </div> */}
             <YReveal>
               <div className="sagepassesconin">
                 <div className="sagepassesconinImage">
-                  <img src="./artist/1.jpg" alt="" />
-                  <h3>DJ PERCH</h3>
+                  <img src="./artist/2.jpg" alt="" />
+                  <h3>DJ RHEA</h3>
                 </div>
                 <div className="sagepassesconincon">
                   <p>
