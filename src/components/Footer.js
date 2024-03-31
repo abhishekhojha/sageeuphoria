@@ -30,7 +30,7 @@ export default function Footer() {
                     </div>
                     <div className="contact">
                         <img src={call} alt="" className="invertimage"/>
-                        <p>Arkansh Aryan - <a href="tel:+919264110100">+91 9264110100</a></p>
+                        <p>Arkansh Aryan :- <a href="tel:+919264110100">+91 9264110100</a></p>
                     </div>
                 </div>
             </div>
