@@ -11,6 +11,7 @@ import sponsor9 from "./img/9.png";
 import Reveal from "../anime/Animation";
 import YReveal from "../anime/Y";
 import XReveal from "../anime/X";
+import ImageSlider from "../anime/slider"
 import { Link } from "react-router-dom";
 export default function Home() {
   useEffect(() => {
@@ -29,13 +30,9 @@ export default function Home() {
               </p>
             </div>
           </Reveal> */}
-          <div className="sageHeaderSlider">
-            <img src="./slider/5.png" alt=""></img>
-          </div>
-          {/* <div className="sageheadervideo">
-            <video autoPlay={true} loop muted>
-              <source src="./gojo.mp4" type="video/mp4" />
-            </video>
+          <ImageSlider />
+          {/* <div className="sageHeaderSlider">
+            <img src="./slider/2.png" alt=""></img>
           </div> */}
           <div className="sageheadercont container">
 
