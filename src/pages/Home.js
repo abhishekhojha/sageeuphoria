@@ -63,17 +63,29 @@ export default function Home() {
                 <div className="sageeventsaboutusCon">
                   <h2>JOY OF COLORS</h2>
                   <p>
-                    A Celebratory College Extravaganza Are you ready for a
-                    celebration to remember? SAGE Euphoria is your opportunity
-                    to experience a weekend full of fun, learning, and
-                    entertainment! From 27th to 29th March 2023, we invite you
-                    to join us for the ultimate college fest.
+                    Welcome to Sage EUPHORIA 2024, the dynamic sequel to our annual college fest hosted
+                    by SAGE University Indore. Building on the triumph of our inaugural event, we're excited
+                    to announce that SAGE EUPHORIA 2024 will run from April 18th to 20th, 2024.
+                    This three-day extravaganza guarantees a thrilling experience with live music, diverse
+                    events, and engaging activities for all interests. Anticipating a crowd of 15,000 and over
+                    2,500 participants, we aim to surpass last year's success.
+                    Prepare for an array of captivating events, forums, competitions, and tech showcases,
+                    culminating in a celebration of talent and innovation. Join us for an unforgettable
+                    experience!
                   </p>
                 </div>
               </div>
               <div className="sageeventsaboutusSecond">
                 <p>
-                  SAGE Euphoria 2.0 presents an unforgettable celebration of college life! From March 11th to 13th, 2024, immerse yourself in a dynamic blend of entertainment, education, and camaraderie. Experience a diverse range of activities, including technical, cultural, literary , E-sports competitions. Dive into special events like the entrepreneurship conclave, creator's conclave, Shark Tank Sage, and electrifying live concerts. Engage in enriching workshops spanning various fields. SAGE Euphoria offers the perfect platform to forge enduring memories, expand your skill set, connect with peers, and revel in the essence of college life. Don't miss out on this opportunity to embrace the spirit of learning, growth, and celebration!
+                  SAGE EUPHORIA 2024 revolves around "Panchtatv," celebrating the five foundational
+                  elements—earth, water, fire, air, and space—guiding our fest with profound symbolism.
+                  Integrating this theme enriches participant experiences across competitions. For
+                  example, the Battle of Bands embodies fire, igniting passion, while Dance Extravaganza
+                  reflects water's fluidity.
+                  The Entrepreneurship Conclave symbolizes earth's stability, Tech Talks delve into air's
+                  intangibility, and the VR Showcase embodies space's boundlessness. Each event
+                  intertwines with Panchtatva, fostering connections with nature and spirituality. Join us
+                  for a journey of exploration and self-discovery, guided by the harmony of the elements.
                 </p>
               </div>
             </>
