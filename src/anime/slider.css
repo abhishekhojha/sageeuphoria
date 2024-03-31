@@ -11,32 +11,42 @@ main {
   flex-direction: column;
   align-items: center;
 }
+
 .slider-container {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
+
 .slider-container .slider {
   position: relative;
   height: 500px;
   overflow: hidden;
 }
+
 @media only screen and (max-width: 1023px) {
   .slider-container .slider {
     height: 280px;
- }
+  }
+
+  .slider.container {
+    width: 100%;
+  }
 }
+
 @media only screen and (max-width: 767px) {
   .slider-container .slider {
-    width: 95vw;
+    width: 100vw;
     height: 230px;
- }
+  }
 }
+
 @media only screen and (max-width: 425px) {
   .slider-container .slider {
     height: 150px;
- }
+  }
 }
+
 .slider-container .slider .image {
   position: absolute;
   height: 100%;
@@ -46,15 +56,19 @@ main {
   background-position: center;
   will-change: transform, opacity;
 }
+
 .slider-container .slider .image:hover {
   cursor: grab;
 }
+
 .slider-container .slider .image:active {
   cursor: grabbing;
 }
+
 .slider-container .buttons {
   margin-top: 12px;
 }
+
 .slider-container .buttons button {
   outline: none;
   border: none;
@@ -67,42 +81,45 @@ main {
   color: white;
   transition: 0.07s ease-out transform;
 }
+
 .slider-container .buttons button:first-of-type {
   margin-right: 15px;
 }
+
 .slider-container .buttons button:hover {
   cursor: pointer;
 }
+
 .slider-container .buttons button:active {
   transform: scale(0.85) skewY(-5deg) rotate(5deg);
 }
+
 .thumbnails {
   display: flex;
   justify-content: center;
 }
+
 .thumbnails .thumbnail-container {
   position: relative;
-  height: 120px;
-  width: 90px;
+  width: 33%;
 }
-@media only screen and (max-width: 375px) {
-  .thumbnails .thumbnail-container {
-    height: 70px;
-    width: 50px;
- }
-}
+
+
 .thumbnails .thumbnail-container:hover {
   cursor: pointer;
 }
+
 .thumbnails .thumbnail-container:not(:last-of-type) {
   margin-right: 5px;
 }
+
 .thumbnails .thumbnail-container img {
   height: 100%;
   width: 100%;
   object-fit: cover;
   object-position: center;
 }
+
 .thumbnails .thumbnail-container .active-indicator {
   position: absolute;
   top: 0;
@@ -115,6 +132,7 @@ main {
   background-color: #1f1f1f;
   transition: 1s cubic-bezier(0.56, 0.03, 0.12, 1.04) transform;
 }
+
 .thumbnails .thumbnail-container .active-indicator.active {
   transform: scaleX(1);
 }

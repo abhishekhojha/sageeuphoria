@@ -85,7 +85,7 @@ const ImageSlider = () => {
         </div>
       </div>
 
-      <div className="thumbnails">
+      <div className="thumbnails container">
         {IMAGES.map(image => (
           <div
             key={image.id}
