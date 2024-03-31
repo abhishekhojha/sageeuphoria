@@ -6,7 +6,8 @@ h5,
 h6 {
     color: var(--head);
 }
-.App{
+
+.App {
     overflow: hidden;
 }
 
@@ -37,7 +38,7 @@ h6 {
     line-height: 35px;
 }
 
-.sageheadervideo{
+.sageheadervideo {
     display: flex;
     justify-content: center;
 }
@@ -100,9 +101,11 @@ h6 {
         bottom: 10px;
     }
 }
-.sageeventsaboutus{
+
+.sageeventsaboutus {
     padding-top: 100px;
 }
+
 .sageeventsaboutusCon h2 {
     font-size: 55px;
 }
@@ -141,10 +144,12 @@ p {
     font-size: 25px;
     font-weight: 400;
 }
-.sagepassesconin .sagepassesconincon{
+
+.sagepassesconin .sagepassesconincon {
     display: grid;
     gap: 10px;
 }
+
 .sagepassesconinImage {
     display: flex;
     flex-direction: column;
@@ -187,11 +192,13 @@ p {
     display: flex;
     color: white;
 }
-.sageourteammember img{
+
+.sageourteammember img {
     cursor: pointer;
     transition: all .5s;
 }
-.sageourteammember img:hover{
+
+.sageourteammember img:hover {
     transform: scale(1.1);
 }
 
@@ -202,12 +209,14 @@ p {
     padding-top: 30px;
     justify-content: center;
 }
-.sageourteammembers p{
+
+.sageourteammembers p {
     padding-top: 10px;
     width: 100%;
     text-align: center;
 
 }
+
 .sageourteam {
     margin-top: 70px;
 }
@@ -275,8 +284,13 @@ p {
     .img-cnt {
         width: 500%;
     }
+
     .sageheadercont {
         min-height: calc(100vh - 62px);
+    }
+
+    .sagepassesconin {
+        grid-template-columns: 1fr;
     }
 }
 
@@ -285,7 +299,8 @@ p {
         position: static;
         transform: translateX(0);
     }
-    .sageeventsaboutus{
+
+    .sageeventsaboutus {
         padding-top: 100px;
     }
 
@@ -309,6 +324,7 @@ p {
     .sagepassesintro h3 {
         font-size: 25px;
     }
+
     .sagepassesconinconsec {
         order: 1;
     }
@@ -316,7 +332,7 @@ p {
 
 @media screen and (max-width: 768px) {
     .sageheaderconthead {
-        padding:20px;
+        padding: 20px;
     }
 
     .sageheadercontBtn {
@@ -354,13 +370,16 @@ p {
     .sageeventsaboutusfirst {
         flex-direction: column;
     }
+
     .sageeventsaboutus,
     .sagepasses {
         padding: 20px;
     }
-    .sageeventsaboutus{
+
+    .sageeventsaboutus {
         padding-top: 100px;
     }
+
     .sagepasseshead h2,
     .sageourteamhead h2 {
         font-size: 25px;
