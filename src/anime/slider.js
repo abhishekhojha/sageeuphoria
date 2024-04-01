@@ -39,7 +39,7 @@ const ImageSlider = () => {
 
   const [index, setIndex] = useState(0);
   const timeoutRef = useRef(null);
-  const delay = 2500;
+  const delay = 3000;
 
   const resetTimeout = () => {
     if (timeoutRef.current) {
