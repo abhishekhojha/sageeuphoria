@@ -35,7 +35,7 @@ export default function Footer() {
             </div>
             <div className="sagefootershoutout">
                 <h4>@Designed by <a href="https://www.linkedin.com/in/yash-mandlekar-9a974421b/" target="_blank" rel="noreferrer">Yash</a></h4>
-                <h4>@Developed by <a href="https://www.linkedin.com/in/abhishekh-ojha-10802b215" target="_blank" rel="noreferrer">Abhishekh</a> <br />Team <a href="https://www.linkedin.com/in/bandana-baghel-008107287/" target="_blank" rel="noreferrer">Bandana</a> & <a href="https://www.linkedin.com/in/pardeshianurag22/" target="_blank" rel="noreferrer">Anurag</a></h4>
+                <h4>@Developed by <a href="https://www.linkedin.com/in/abhishekh-ojha-10802b215" target="_blank" rel="noreferrer">Abhishekh</a></h4>
             </div>
         </div>
     </>

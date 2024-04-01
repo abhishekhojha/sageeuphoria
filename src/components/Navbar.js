@@ -73,7 +73,7 @@ export default function Navbar() {
               </li>
               <li >
                 <Link onClick={handleNav} to="/gallery">
-                  Gallery
+                  GALLERY
                 </Link>
               </li>
               <li onClick={scrollToSponsors}>
