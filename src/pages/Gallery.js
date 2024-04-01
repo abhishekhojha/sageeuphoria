@@ -3,7 +3,7 @@ import "./css/gallery.css";
 import Reveal from "../anime/Animation";
 import { SlideshowLightbox } from "lightbox.js-react";
 import { LazyLoadImage } from "react-lazy-load-image-component";
-import img from "./img/Gopal_Namkeen.png"
+import img from "./img/Gopal_Namkeen.png";
 export default function Gallery() {
   const images = [
     {
@@ -35,16 +35,11 @@ export default function Gallery() {
         </Reveal>
         <div className="px-4 min-h-64">
           <SlideshowLightbox className="container grid grid-cols-2 px-2 md:grid-cols-3 gap-2 mx-auto">
-          
-              <LazyLoadImage
-        width={600} height={400}
-                alt={"hshs"}
-                src={img}
-                />
+            <LazyLoadImage width={600} height={400} alt={"hshs"} src={img} />
             <img
               className="w-full rounded"
               src="https://source.unsplash.com/AYS2sSAMyhc/1400x1200"
-              />
+            />
             {/* <LazyLoadImage
               className="w-full rounded"
               src="https://source.unsplash.com/Kk8mEQAoIpI/1600x1200"
