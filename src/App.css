@@ -237,6 +237,7 @@ p {
     width: 160%;
     display: flex;
     align-items: center;
+    gap: 30px;
 }
 
 .marquee {
@@ -249,22 +250,25 @@ p {
 
 .img {
     display: flex;
-    width: 24vmax;
+    width: 130px;
     border-radius: 200px;
+    height: 130px;
     overflow: hidden;
-    margin: 2vmax;
+    background: #fff;
+    padding: 15px;
 }
 
 .img img {
     width: 100%;
     height: 100%;
+    object-fit: contain;
 }
 
 @keyframes marquee {
+
     0% {
         transform: translate3d(0, 0, 0);
     }
-
     100% {
         transform: translate3d(-40%, 0, 0);
     }
@@ -272,7 +276,7 @@ p {
 
 @keyframes marquee2 {
     0% {
-        transform: translate3d(-50%, 0, 0);
+        transform: translate3d(-40%, 0, 0);
     }
 
     100% {

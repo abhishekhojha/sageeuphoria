@@ -1,18 +1,14 @@
 import { useEffect } from "react";
-import sponsor1 from "./img/1.png";
-import sponsor2 from "./img/2.png";
-import sponsor3 from "./img/3.png";
-import sponsor4 from "./img/4.png";
-import sponsor5 from "./img/5.png";
-import sponsor6 from "./img/6.png";
-import sponsor7 from "./img/7.png";
-import sponsor8 from "./img/8.png";
-import sponsor9 from "./img/9.png";
+import sponsor1 from "./img/SI_Global.png";
+import sponsor2 from "./img/Intex.png";
+import sponsor3 from "./img/Gopal_Namkeen.png";
+import sponsor4 from "./img/Sage_Radio.jpg";
+import sponsor5 from "./img/Decathlon_Logo.png";
+import sponsor6 from "./img/upsc.png";
 import Reveal from "../anime/Animation";
 import YReveal from "../anime/Y";
 import XReveal from "../anime/X";
 import ImageSlider from "../anime/slider"
-import { Link } from "react-router-dom";
 export default function Home() {
   useEffect(() => {
     window.scrollTo(0, 0);
@@ -21,6 +17,7 @@ export default function Home() {
     <>
       <div>
         <div className="sageheader">
+          <ImageSlider />
           {/* <Reveal>
             <div className="sageheaderconthead">
               <h1>SAGE EUPHORIA</h1>
@@ -30,12 +27,7 @@ export default function Home() {
               </p>
             </div>
           </Reveal> */}
-          <ImageSlider />
-          {/* <div className="sageHeaderSlider">
-            <img src="./slider/2.png" alt=""></img>
-          </div> */}
           <div className="sageheadercont container">
-
             <Reveal>
               <div className="sageheadercontBtn">
                 <a href="/#" className="sagebuttons">
@@ -61,7 +53,7 @@ export default function Home() {
                   <img src="./about.jpg" alt="" />
                 </div>
                 <div className="sageeventsaboutusCon">
-                  <h2>JOY OF COLORS</h2>
+                  <h2>SAGE Euphoria'24</h2>
                   <p>
                     Welcome to Sage EUPHORIA 2024, the dynamic sequel to our annual college fest hosted
                     by SAGE University Indore. Building on the triumph of our inaugural event, we're excited
@@ -173,55 +165,53 @@ export default function Home() {
             </Reveal>
             <div className="sageourteammembers">
               <Reveal>
-                <Link to="https://www.instagram.com/nikhill.pandeyy?igsh=NmlxY3Uyd2pkenJr" className="sageourteammember">
+                <a target='_blank' rel="noreferrer" href="https://www.instagram.com/nikhill.pandeyy?igsh=NmlxY3Uyd2pkenJr" className="sageourteammember">
                   <img src="./team/nikhil.jpeg" alt="" />
-                </Link>
+                </a>
                 <p>
-                  <Link to="https://www.instagram.com/nikhill.pandeyy?igsh=NmlxY3Uyd2pkenJr">
+                  <a target='_blank' rel="noreferrer" href="https://www.instagram.com/nikhill.pandeyy?igsh=NmlxY3Uyd2pkenJr">
                     Nikhil Pandey
-                  </Link>
+                  </a>
                 </p>
               </Reveal>
               <Reveal>
-                <Link to="https://www.instagram.com/sanketjain29?igsh=MW9yc2d0NWc1N2wydQ==" className="sageourteammember">
+                <a target='_blank' rel="noreferrer" href="https://www.instagram.com/sanketjain29?igsh=MW9yc2d0NWc1N2wydQ==" className="sageourteammember">
                   <img src="./team/sanket.jpeg" alt="" />
-                </Link>
+                </a>
                 <p>
-                  <Link to="https://www.instagram.com/sanketjain29?igsh=MW9yc2d0NWc1N2wydQ==">
+                  <a target='_blank' rel="noreferrer" href="https://www.instagram.com/sanketjain29?igsh=MW9yc2d0NWc1N2wydQ==">
                     Sanket Jain
-                  </Link>
+                  </a>
                 </p>
               </Reveal>
               <Reveal>
-                <Link to="https://www.instagram.com/iamarkansh?igsh=MTlwcjE5cjN5dmI4cg==" className="sageourteammember">
+                <a target='_blank' rel="noreferrer" href="https://www.instagram.com/iamarkansh?igsh=MTlwcjE5cjN5dmI4cg==" className="sageourteammember">
                   <img src="./team/arkansh.jpeg" alt="" />
-                </Link>
+                </a>
                 <p>
-                  <Link to="https://www.instagram.com/iamarkansh?igsh=MTlwcjE5cjN5dmI4cg==">
+                  <a target='_blank' rel="noreferrer" href="https://www.instagram.com/iamarkansh?igsh=MTlwcjE5cjN5dmI4cg==">
                     Arkansh Aryan
-                  </Link>
+                  </a>
+                </p>
+              </Reveal>
+              <Reveal>
+                <a target='_blank' rel="noreferrer" href="https://www.instagram.com/_.nainaaa___/" className="sageourteammember">
+                  <img src="./team/naina.jpg" alt="" />
+                </a>
+                <p>
+                  <a target='_blank' rel="noreferrer" href="https://www.instagram.com/_.nainaaa___/">
+                    Naina Rawat
+                  </a>
                 </p>
               </Reveal>
             </div>
-            {/* <div className="sageourteammembers">
-              <Reveal>
-                <div className="sageourteammember">
-                  <img src="./team/1.jpg" alt="" />
-                </div>
-              </Reveal>
-              <Reveal>
-                <div className="sageourteammember">
-                  <img src="./team/1.jpg" alt="" />
-                </div>
-              </Reveal>
-            </div> */}
           </div>
         </div>
         {/* sponsers */}
         <div id="sponsors" className="main">
           <Reveal>
             <div className="sageourteamhead">
-              <h2>OUR PAST SPONSORS</h2>
+              <h2>SPONSORS</h2>
             </div>
           </Reveal>
           <div className="top">
@@ -239,6 +229,12 @@ export default function Home() {
                 <img src={sponsor4} alt="" />
               </div>
               <div className="img">
+                <img src={sponsor5} alt="" />
+              </div>
+              <div className="img">
+                <img src={sponsor6} alt="" />
+              </div>
+              <div className="img">
                 <img src={sponsor1} alt="" />
               </div>
               <div className="img">
@@ -251,44 +247,50 @@ export default function Home() {
                 <img src={sponsor4} alt="" />
               </div>
               <div className="img">
-                <img src={sponsor1} alt="" />
+                <img src={sponsor5} alt="" />
               </div>
               <div className="img">
-                <img src={sponsor2} alt="" />
+                <img src={sponsor6} alt="" />
               </div>
             </div>
           </div>
           <div className="top">
             <div className="img-cnt marquee-2">
               <div className="img">
-                <img src={sponsor5} alt="" />
-              </div>
-              <div className="img">
                 <img src={sponsor6} alt="" />
-              </div>
-              <div className="img">
-                <img src={sponsor7} alt="" />
-              </div>
-              <div className="img">
-                <img src={sponsor8} alt="" />
-              </div>
-              <div className="img">
-                <img src={sponsor9} alt="" />
               </div>
               <div className="img">
                 <img src={sponsor5} alt="" />
               </div>
               <div className="img">
+                <img src={sponsor4} alt="" />
+              </div>
+              <div className="img">
+                <img src={sponsor3} alt="" />
+              </div>
+              <div className="img">
+                <img src={sponsor2} alt="" />
+              </div>
+              <div className="img">
+                <img src={sponsor1} alt="" />
+              </div>
+              <div className="img">
                 <img src={sponsor6} alt="" />
               </div>
               <div className="img">
-                <img src={sponsor7} alt="" />
+                <img src={sponsor5} alt="" />
               </div>
               <div className="img">
-                <img src={sponsor8} alt="" />
+                <img src={sponsor4} alt="" />
               </div>
               <div className="img">
-                <img src={sponsor9} alt="" />
+                <img src={sponsor3} alt="" />
+              </div>
+              <div className="img">
+                <img src={sponsor2} alt="" />
+              </div>
+              <div className="img">
+                <img src={sponsor1} alt="" />
               </div>
             </div>
           </div>
