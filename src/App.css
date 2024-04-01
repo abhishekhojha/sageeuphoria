@@ -116,7 +116,8 @@ h6 {
 
 p {
     color: var(--para);
-    font-size: 18px;
+    font-size: 15px;
+   font-weight: 500;
 }
 
 .sageeventsaboutusfirst {

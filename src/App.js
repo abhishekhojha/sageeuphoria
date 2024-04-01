@@ -1,21 +1,19 @@
-import { Suspense, lazy, useEffect } from "react";
+import {  useEffect } from "react";
 import "./App.css";
 import Home from "./pages/Home";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Navbar from "./components/Navbar";
 import Events from "./pages/Events";
 import Footer from "./components/Footer";
+import Gallery from "./pages/Gallery";
 import {initLightboxJS} from 'lightbox.js-react'
 import 'lightbox.js-react/dist/index.css'
-
-const Gallery = lazy(() => import("./pages/Gallery"));
 
 function App() {
   useEffect(() => {
     initLightboxJS("Insert your License Key here", "Insert plan type here");
   }, []);
   return (
-    <Suspense fallback={<>Loading...</>} className="App">
       <BrowserRouter>
         <Navbar />
         <Routes>
@@ -25,7 +23,6 @@ function App() {
         </Routes>
         <Footer />
       </BrowserRouter>
-    </Suspense>
   );
 }
 
