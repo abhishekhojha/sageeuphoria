@@ -72,8 +72,8 @@ export default function Navbar() {
                 </Link>
               </li>
               <li >
-                <Link onClick={handleNav} to="">
-                  TEAM
+                <Link onClick={handleNav} to="/gallery">
+                  Gallery
                 </Link>
               </li>
               <li onClick={scrollToSponsors}>
@@ -106,8 +106,8 @@ export default function Navbar() {
             </Link>
           </li>
           <li >
-            <Link to="">
-              TEAM
+            <Link onClick={handleNav} to="/gallery">
+              GALLERY
             </Link>
           </li>
           <li onClick={scrollToSponsors}>

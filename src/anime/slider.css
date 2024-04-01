@@ -29,6 +29,7 @@ main {
 }
 .slider-container.container{
   width: 100%;
+  max-width: 1840px;
 }
 @media only screen and (max-width: 1023px) {
   .slider-container .slider {
@@ -92,9 +93,9 @@ main {
   margin-right: 15px;
 }
 
-.slider-container .buttons button:hover {
+/* .slider-container .buttons button:hover {
   cursor: pointer;
-}
+} */
 
 .slider-container .buttons button:active {
   transform: scale(0.85) skewY(-5deg) rotate(5deg);
@@ -111,9 +112,9 @@ main {
 }
 
 
-.thumbnails .thumbnail-container:hover {
+/* .thumbnails .thumbnail-container:hover {
   cursor: pointer;
-}
+} */
 
 .thumbnails .thumbnail-container:not(:last-of-type) {
   margin-right: 5px;
