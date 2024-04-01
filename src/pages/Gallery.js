@@ -32,24 +32,26 @@ export default function Gallery() {
             </p>
           </div>
         </Reveal>
-        <SlideshowLightbox className="container grid grid-cols-3 gap-2 mx-auto">
-          <img
-            className="w-full rounded"
-            src="https://source.unsplash.com/pAKCx4y2H6Q/1400x1200"
-          />
-          <img
-            className="w-full rounded"
-            src="https://source.unsplash.com/AYS2sSAMyhc/1400x1200"
-          />
-          <img
-            className="w-full rounded"
-            src="https://source.unsplash.com/Kk8mEQAoIpI/1600x1200"
-          />
-          <img
-            className="w-full rounded"
-            src="https://source.unsplash.com/HF3X2TWv1-w/1600x1200"
-          />
-        </SlideshowLightbox>
+        <div className="px-4">
+          <SlideshowLightbox className="container grid grid-cols-2 px-2 md:grid-cols-3 gap-2 mx-auto">
+            <img
+              className="w-full rounded"
+              src="https://source.unsplash.com/pAKCx4y2H6Q/1400x1200"
+            />
+            <img
+              className="w-full rounded"
+              src="https://source.unsplash.com/AYS2sSAMyhc/1400x1200"
+            />
+            <img
+              className="w-full rounded"
+              src="https://source.unsplash.com/Kk8mEQAoIpI/1600x1200"
+            />
+            <img
+              className="w-full rounded"
+              src="https://source.unsplash.com/HF3X2TWv1-w/1600x1200"
+            />
+          </SlideshowLightbox>
+        </div>
       </div>
     </>
   );
