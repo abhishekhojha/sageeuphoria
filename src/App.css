@@ -10,9 +10,11 @@ h6 {
 .App {
     overflow: hidden;
 }
-.sageheader{
+
+.sageheader {
     padding-bottom: 60px;
 }
+
 .sageheadercont {
     justify-content: space-between;
     display: flex;
@@ -118,9 +120,10 @@ p {
 }
 
 .sageeventsaboutusfirst {
-    display: flex;
+    display: grid;
     align-items: center;
-    gap: 20px;
+    gap: 30px;
+    grid-template-columns: 1fr 1fr;
 }
 
 .sageeventsaboutusSecond {
@@ -300,9 +303,10 @@ p {
 }
 
 @media screen and (max-width: 1023px) {
-    .sagepassescon{
+    .sagepassescon {
         grid-template-columns: 1fr;
     }
+
     .sagepassesconin .sagepassesconincon {
         height: 100%;
     }
@@ -313,6 +317,7 @@ p {
         position: static;
         transform: translateX(0);
     }
+
     .sageeventsaboutus {
         padding-top: 20px;
     }
