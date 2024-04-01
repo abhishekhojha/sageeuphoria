@@ -12,8 +12,7 @@ export default function Footer() {
                     <p>SAGE University,<br /> Kailod Kartal Rau Bypass Road,<br />Indore. 452020 (Madhya Pradesh)</p>
                 </div>
                 <div className="sagefooterInSocial">
-                    <img src={linkedin} alt=""></img>
-                    <img src={insta} alt=""></img>
+                    <a href="https://www.instagram.com/sage.euphoria?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" target="_blank" rel="noreferrer"><img src={insta} alt=""></img></a>
                 </div>
                 <div className="sagefooterInContact">
                     <div className="contact">

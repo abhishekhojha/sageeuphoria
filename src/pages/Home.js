@@ -27,7 +27,7 @@ export default function Home() {
               </p>
             </div>
           </Reveal> */}
-          <div className="sageheadercont container">
+          {/* <div className="sageheadercont container">
             <Reveal>
               <div className="sageheadercontBtn">
                 <a href="/#" className="sagebuttons">
@@ -42,8 +42,17 @@ export default function Home() {
                 </a>
               </div>
             </Reveal>
-          </div>
+          </div> */}
         </div>
+        <Reveal>
+          <div className="sageheaderconthead">
+            <h1>SAGE EUPHORIA 2024</h1>
+            <p>
+              Unleashing the Ultimate campus experience A celebration of
+              youth, talent, and creativity..
+            </p>
+          </div>
+        </Reveal>
         {/* sage aboutus */}
         <div className="sageeventsaboutus container">
           <Reveal>
@@ -53,7 +62,7 @@ export default function Home() {
                   <img src="./about.jpg" alt="" />
                 </div>
                 <div className="sageeventsaboutusCon">
-                  <h2>SAGE Euphoria'24</h2>
+                  {/* <h2>SAGE Euphoria'24</h2> */}
                   <p>
                     Welcome to Sage EUPHORIA 2024, the dynamic sequel to our annual college fest hosted
                     by SAGE University Indore. Building on the triumph of our inaugural event, we're excited
@@ -165,16 +174,6 @@ export default function Home() {
             </Reveal>
             <div className="sageourteammembers">
               <Reveal>
-                <a target='_blank' rel="noreferrer" href="https://www.instagram.com/nikhill.pandeyy?igsh=NmlxY3Uyd2pkenJr" className="sageourteammember">
-                  <img src="./team/nikhil.jpeg" alt="" />
-                </a>
-                <p>
-                  <a target='_blank' rel="noreferrer" href="https://www.instagram.com/nikhill.pandeyy?igsh=NmlxY3Uyd2pkenJr">
-                    Nikhil Pandey
-                  </a>
-                </p>
-              </Reveal>
-              <Reveal>
                 <a target='_blank' rel="noreferrer" href="https://www.instagram.com/sanketjain29?igsh=MW9yc2d0NWc1N2wydQ==" className="sageourteammember">
                   <img src="./team/sanket.jpeg" alt="" />
                 </a>
@@ -184,6 +183,17 @@ export default function Home() {
                   </a>
                 </p>
               </Reveal>
+              <Reveal>
+                <a target='_blank' rel="noreferrer" href="https://www.instagram.com/nikhill.pandeyy?igsh=NmlxY3Uyd2pkenJr" className="sageourteammember">
+                  <img src="./team/nikhil.jpeg" alt="" />
+                </a>
+                <p>
+                  <a target='_blank' rel="noreferrer" href="https://www.instagram.com/nikhill.pandeyy?igsh=NmlxY3Uyd2pkenJr">
+                    Nikhil Pandey
+                  </a>
+                </p>
+              </Reveal>
+
               <Reveal>
                 <a target='_blank' rel="noreferrer" href="https://www.instagram.com/iamarkansh?igsh=MTlwcjE5cjN5dmI4cg==" className="sageourteammember">
                   <img src="./team/arkansh.jpeg" alt="" />

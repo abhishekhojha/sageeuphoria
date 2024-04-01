@@ -4,7 +4,7 @@ import Fire from "./img/Fire.svg";
 import Earth from "./img/earth.svg";
 import Water from "./img/water.svg";
 import Ether from "./img/Ether.svg";
-import SageEuphoriaLogo from "./img/sageeuphoria.jpeg";
+import SageEuphoriaLogo from "./img/logoSAGE.png";
 import { Link } from "react-router-dom";
 export default function Navbar() {
   const [sideNav, setsideNav] = useState(false);

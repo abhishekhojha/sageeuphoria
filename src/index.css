@@ -3,6 +3,7 @@
   padding: 0;
   box-sizing: border-box;
   font-family: 'Roboto', sans-serif;
+  font-family: "Open Sans", sans-serif;
 }
 :root {
   --head: #242424;

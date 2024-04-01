@@ -1,4 +1,4 @@
-import React, { useState } from "react"
+import React, { useEffect, useRef, useState } from "react"
 import { motion, AnimatePresence } from "framer-motion"
 import { wrap } from "@popmotion/popcorn"
 
@@ -34,6 +34,39 @@ const ImageSlider = () => {
     setImageCount([imageCount + swipeDirection, swipeDirection])
   }
 
+
+
+
+  const [index, setIndex] = useState(0);
+  const timeoutRef = useRef(null);
+  const delay = 2500;
+
+  const resetTimeout = () => {
+    if (timeoutRef.current) {
+      clearTimeout(timeoutRef.current);
+    }
+  };
+
+  React.useEffect(() => {
+    resetTimeout();
+    timeoutRef.current = setTimeout(() => {
+      if(IMAGES.length - 1 < index && IMAGES.length - 1 >= 0){
+        swipeToImage(-1)
+      }else{
+        swipeToImage(1)
+      }
+      setIndex((prevIndex) =>
+        prevIndex === IMAGES.length - 1 ? 0 : prevIndex + 1
+      );
+    }, delay);
+
+    return () => {
+      resetTimeout();
+    };
+  }, [index]);
+
+
+
   const dragEndHandler = dragInfo => {
     const draggedDistance = dragInfo.offset.x
     const swipeThreshold = 50
@@ -57,7 +90,7 @@ const ImageSlider = () => {
   return (
     <main>
       <div className="slider-container container">
-        <div className="slider container">
+        <div className="slider">
           <AnimatePresence initial={false} custom={direction}>
             <motion.div
               key={imageCount}
@@ -70,33 +103,32 @@ const ImageSlider = () => {
               animate="active"
               exit="exit"
               transition={sliderTransition}
-              drag="x"
-              dragConstraints={{ left: 0, right: 0 }}
-              dragElastic={1}
-              onDragEnd={(_, dragInfo) => dragEndHandler(dragInfo)}
+              // drag="x"
+              // dragConstraints={{ left: 0, right: 0 }}
+              // dragElastic={1}
+              // onDragEnd={(_, dragInfo) => dragEndHandler(dragInfo)}
               className="image"
             />
           </AnimatePresence>
         </div>
 
-        <div className="buttons">
+        {/* <div className="buttons">
           <button onClick={() => swipeToImage(-1)}>PREV</button>
           <button onClick={() => swipeToImage(1)}>NEXT</button>
-        </div>
+        </div> */}
       </div>
 
       <div className="thumbnails container">
         {IMAGES.map(image => (
           <div
             key={image.id}
-            onClick={() => skipToImage(image.id)}
+            // onClick={() => skipToImage(image.id)}
             className="thumbnail-container"
           >
             <img src={image.imageSrc} alt="Artist" />
             <div
-              className={`active-indicator ${
-                image.id === activeImageIndex ? "active" : null
-              }`}
+              className={`active-indicator ${image.id === activeImageIndex ? "active" : null
+                }`}
             />
           </div>
         ))}

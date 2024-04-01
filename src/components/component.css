@@ -71,9 +71,11 @@
 }
 
 .SageEuphoriaLogo {
-  width: 100px;
+  width: 70px;
 }
-
+a.sageNavLogo {
+  padding: 10px;
+}
 .sagePanchSvg {
   width: 25px;
   border-radius: 100px;

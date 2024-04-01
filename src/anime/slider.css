@@ -19,16 +19,20 @@ main {
 }
 
 .slider-container .slider {
+  width: 100%;
   position: relative;
-  height: 500px;
+  height: 600px;
   overflow: hidden;
 }
 .slider.container {
   margin: 0;
 }
+.slider-container.container{
+  width: 100%;
+}
 @media only screen and (max-width: 1023px) {
   .slider-container .slider {
-    height: 280px;
+    height: 330px;
   }
 
   .slider.container {
