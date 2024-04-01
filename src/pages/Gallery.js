@@ -1,14 +1,23 @@
 import { useEffect, useState } from "react";
-import "./css/events.css";
 import "./css/gallery.css";
 import XReveal from "../anime/X";
 import Reveal from "../anime/Animation";
-import Data1 from "./Day1.json";
-import Data2 from "./Day2.json";
-
+import { SlideshowLightbox } from "lightbox.js-react";
 export default function Gallery() {
-  const [Day1, setDay1] = useState(Data1);
-  const [Day2, setDay2] = useState(Data2);
+  const images = [
+    {
+      src: "https://timellenberger.com/static/blog-content/dark-mode/win10-dark-mode.jpg",
+      alt: "Windows 10 Dark Mode Setting",
+    },
+    {
+      src: "https://timellenberger.com/static/blog-content/dark-mode/macos-dark-mode.png",
+      alt: "macOS Mojave Dark Mode Setting",
+    },
+    {
+      src: "https://timellenberger.com/static/blog-content/dark-mode/android-9-dark-mode.jpg",
+      alt: "Android 9.0 Dark Mode Setting",
+    },
+  ];
   useEffect(() => {
     window.scrollTo(0, 0);
   }, []);
@@ -19,43 +28,28 @@ export default function Gallery() {
           <div className="sageEventsHead">
             <h2>Gallery</h2>
             <p>
-              In the creative wilderness, clients <br />
-              find our work truly beloved.
+              In the creative wilderness, clients find our work truly beloved.
             </p>
           </div>
         </Reveal>
-        <div className="sageEventsup sageEventsRight">
-          <h2>Day 1</h2>
-          <div className="sageGalleryIn">
-            {Day1.splice(0, 4).map((e, i) => (
-              <XReveal key={i}>
-                <iframe
-                  width="500"
-                  height="315"
-                  src={e.url}
-                  frameBorder="0"
-                  allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-                  allowFullScreen
-                ></iframe>
-              </XReveal>
-            ))}
-          </div>
-        </div>
-        <div className="sageEventsup sageEventsRight">
-          <h2>Day 2</h2>
-          <div className="sageGalleryIn">
-            {Day2.splice(0, 4).map((e, i) => (
-              <XReveal key={i}>
-                <iframe
-                  src={e.url}
-                  frameBorder="0"
-                  allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-                  allowFullScreen
-                ></iframe>
-              </XReveal>
-            ))}
-          </div>
-        </div>
+        <SlideshowLightbox className="container grid grid-cols-3 gap-2 mx-auto">
+          <img
+            className="w-full rounded"
+            src="https://source.unsplash.com/pAKCx4y2H6Q/1400x1200"
+          />
+          <img
+            className="w-full rounded"
+            src="https://source.unsplash.com/AYS2sSAMyhc/1400x1200"
+          />
+          <img
+            className="w-full rounded"
+            src="https://source.unsplash.com/Kk8mEQAoIpI/1600x1200"
+          />
+          <img
+            className="w-full rounded"
+            src="https://source.unsplash.com/HF3X2TWv1-w/1600x1200"
+          />
+        </SlideshowLightbox>
       </div>
     </>
   );
