@@ -9,7 +9,7 @@
     flex-direction: column;
     gap: 15px;
     justify-content: center;
-    align-items: end;
+    align-items: center;
 }
 .sageEventsCon{
     display: flex;
@@ -40,7 +40,7 @@
 }
 
 .sageEventsRight {
-    text-align: right;
+    text-align: center;
 }
 
 .sageEventsRight .sageEventsCon {
@@ -48,8 +48,8 @@
 }
 
 .sageEventsLeft .sageEventsConin {
-    text-align: left;
-    align-items: start;
+    align-items: center;
+    text-align: center;
 }
 .sageEventsHead{
     padding: 20px 0;
