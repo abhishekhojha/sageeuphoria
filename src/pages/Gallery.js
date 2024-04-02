@@ -2,24 +2,21 @@ import { useEffect, useState } from "react";
 import "./css/gallery.css";
 import Reveal from "../anime/Animation";
 import { SlideshowLightbox } from "lightbox.js-react";
+import { gallery } from "../anime/gallery";
 export default function Gallery() {
-  const images = [
-    {
-      src: "https://timellenberger.com/static/blog-content/dark-mode/win10-dark-mode.jpg",
-      alt: "Windows 10 Dark Mode Setting",
-    },
-    {
-      src: "https://timellenberger.com/static/blog-content/dark-mode/macos-dark-mode.png",
-      alt: "macOS Mojave Dark Mode Setting",
-    },
-    {
-      src: "https://timellenberger.com/static/blog-content/dark-mode/android-9-dark-mode.jpg",
-      alt: "Android 9.0 Dark Mode Setting",
-    },
-  ];
+  const [imgdata, setimgdata] = useState(gallery.slice(0, 9));
+  const [count, setcount] = useState(1);
+
   useEffect(() => {
     window.scrollTo(0, 0);
   }, []);
+  const loadmore = () => {
+    var skip = count * 9;
+    var val = (count + 1) * 9;
+    setimgdata((prev) => [...prev, gallery.slice(skip, val)]);
+    setcount(count + 1);
+    console.log(val);
+  };
   return (
     <>
       <div className="sageEvents container">
@@ -34,12 +31,11 @@ export default function Gallery() {
 
         <div className="px-4 min-h-64">
           <SlideshowLightbox className="container grid grid-cols-2 px-2 md:grid-cols-3 gap-2 mx-auto">
-            <img
-              className="w-full rounded"
-              src="https://source.unsplash.com/AYS2sSAMyhc/1400x1200"
-            />
-            
+            {imgdata.map((img) => (
+              <img key={img.id} className="w-full rounded" src={img.imageSrc} />
+            ))}
           </SlideshowLightbox>
+          <button onClick={loadmore}>Load more</button>
         </div>
       </div>
     </>
