@@ -19,31 +19,6 @@ export default function Home() {
       <div>
         <div className="sageheader">
           <ImageSlider />
-          {/* <Reveal>
-            <div className="sageheaderconthead">
-              <h1>SAGE EUPHORIA</h1>
-              <p>
-                Unleashing the Ultimate campus experience A celebration of
-                youth, talent, and creativity..
-              </p>
-            </div>
-          </Reveal> */}
-          {/* <div className="sageheadercont container">
-            <Reveal>
-              <div className="sageheadercontBtn">
-                <a href="/#" className="sagebuttons">
-                  Get your passes
-                </a>
-                <div className="scroll">
-                  <p>Scroll</p>
-                  <img style={{ filter: "invert(1)" }} src="./down.png" alt="" />
-                </div>
-                <a href="/#" className="sagebuttons">
-                  Get your passes
-                </a>
-              </div>
-            </Reveal>
-          </div> */}
         </div>
         <Reveal>
           <div className="sageheaderconthead">
@@ -145,23 +120,6 @@ export default function Home() {
                 </div>
               </div>
             </XReveal>
-            {/* <div className="sagepassesconin">
-              <div className="sagepassesconincon sagepassesconinconsec">
-                <p>
-                  Sahil Sharma, better known by his stage name Zaeden, is a
-                  talented singer and record producer who is set to perform at
-                  the Sage Euphoria night concert. Hailing from India, Zaeden
-                  has gained a reputation for his unique style of blending
-                  electronic dance music with Indian classical music. He first
-                  rose to fame with his remix of Coldplay's hit song "Magic"
-                  which gained millions of views on YouTube.
-                </p>
-              </div>
-              <div className="sagepassesconinImage">
-                <img src="./artist/2.jpg" alt="" />
-                <h3>ZAEDEN</h3>
-              </div>
-            </div> */}
             <YReveal>
               <div className="sagepassesconin">
                 <div className="sagepassesconinImage">

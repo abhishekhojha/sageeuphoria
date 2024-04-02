@@ -2,7 +2,6 @@ import { useEffect, useState } from "react";
 import "./css/gallery.css";
 import Reveal from "../anime/Animation";
 import { SlideshowLightbox } from "lightbox.js-react";
-import img from "./img/Gopal_Namkeen.png";
 export default function Gallery() {
   const images = [
     {
@@ -39,14 +38,7 @@ export default function Gallery() {
               className="w-full rounded"
               src="https://source.unsplash.com/AYS2sSAMyhc/1400x1200"
             />
-            {/* <LazyLoadImage
-              className="w-full rounded"
-              src="https://source.unsplash.com/Kk8mEQAoIpI/1600x1200"
-              />
-            <LazyLoadImage
-              className="w-full rounded"
-              src="https://source.unsplash.com/HF3X2TWv1-w/1600x1200"
-              /> */}
+            
           </SlideshowLightbox>
         </div>
       </div>
