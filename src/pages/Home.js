@@ -9,6 +9,7 @@ import Reveal from "../anime/Animation";
 import YReveal from "../anime/Y";
 import XReveal from "../anime/X";
 import ImageSlider from "../anime/slider";
+import Marquee from "react-fast-marquee";
 export default function Home() {
   useEffect(() => {
     window.scrollTo(0, 0);
@@ -282,248 +283,82 @@ export default function Home() {
               <h2>SPONSORS</h2>
             </div>
           </Reveal>
-          <div id="elem">
-            <div id="elem1">
-              <div class="circ">
-                <img
-                  src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1964&q=80"
-                  alt=""
-                />
-              </div>
-              <div class="circ">
-                <img
-                  src="https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1887&q=80"
-                  alt=""
-                />
-              </div>
-              <div class="circ">
-                <img
-                  src="https://images.unsplash.com/photo-1531746020798-e6953c6e8e04?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1964&q=80"
-                  alt=""
-                />
-              </div>
-              <div class="circ">
-                <img
-                  src="https://images.unsplash.com/photo-1544005313-94ddf0286df2?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1888&q=80"
-                  alt=""
-                />
-              </div>
-              <div class="circ">
-                <img
-                  src="https://images.unsplash.com/photo-1552374196-c4e7ffc6e126?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1887&q=80"
-                  alt=""
-                />
-              </div>
-              <div class="circ">
-                <img
-                  src="https://images.unsplash.com/photo-1570158268183-d296b2892211?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1887&q=80"
-                  alt=""
-                />
-              </div>
-              <div class="circ">
-                <img
-                  src="https://images.unsplash.com/photo-1502823403499-6ccfcf4fb453?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1887&q=80"
-                  alt=""
-                />
-              </div>
-              <div class="circ">
-                <img
-                  src="https://images.unsplash.com/photo-1500336624523-d727130c3328?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1887&q=80"
-                  alt=""
-                />
-              </div>
-              <div class="circ">
-                <img
-                  src="https://images.unsplash.com/photo-1528892952291-009c663ce843?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1888&q=80"
-                  alt=""
-                />
-              </div>
-              <div class="circ">
-                <img
-                  src="https://images.unsplash.com/photo-1488161628813-04466f872be2?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1964&q=80"
-                  alt=""
-                />
-              </div>
-              <div class="circ">
-                <img
-                  src="https://images.unsplash.com/photo-1493106819501-66d381c466f1?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1887&q=80"
-                  alt=""
-                />
-              </div>
-              <div class="circ">
-                <img
-                  src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1964&q=80"
-                  alt=""
-                />
-              </div>
-              <div class="circ">
-                <img
-                  src="https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1887&q=80"
-                  alt=""
-                />
-              </div>
+          <Marquee direction="right" speed={100}>
+            <div className="image_wrapper">
+              <img src={sponsor1} alt="" />
             </div>
-            <div id="elem1">
-              <div class="circ">
-                <img
-                  src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1964&q=80"
-                  alt=""
-                />
-              </div>
-              <div class="circ">
-                <img
-                  src="https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1887&q=80"
-                  alt=""
-                />
-              </div>
-              <div class="circ">
-                <img
-                  src="https://images.unsplash.com/photo-1531746020798-e6953c6e8e04?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1964&q=80"
-                  alt=""
-                />
-              </div>
-              <div class="circ">
-                <img
-                  src="https://images.unsplash.com/photo-1544005313-94ddf0286df2?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1888&q=80"
-                  alt=""
-                />
-              </div>
-              <div class="circ">
-                <img
-                  src="https://images.unsplash.com/photo-1552374196-c4e7ffc6e126?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1887&q=80"
-                  alt=""
-                />
-              </div>
-              <div class="circ">
-                <img
-                  src="https://images.unsplash.com/photo-1570158268183-d296b2892211?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1887&q=80"
-                  alt=""
-                />
-              </div>
-              <div class="circ">
-                <img
-                  src="https://images.unsplash.com/photo-1502823403499-6ccfcf4fb453?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1887&q=80"
-                  alt=""
-                />
-              </div>
-              <div class="circ">
-                <img
-                  src="https://images.unsplash.com/photo-1500336624523-d727130c3328?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1887&q=80"
-                  alt=""
-                />
-              </div>
-              <div class="circ">
-                <img
-                  src="https://images.unsplash.com/photo-1528892952291-009c663ce843?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1888&q=80"
-                  alt=""
-                />
-              </div>
-              <div class="circ">
-                <img
-                  src="https://images.unsplash.com/photo-1488161628813-04466f872be2?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1964&q=80"
-                  alt=""
-                />
-              </div>
-              <div class="circ">
-                <img
-                  src="https://images.unsplash.com/photo-1493106819501-66d381c466f1?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1887&q=80"
-                  alt=""
-                />
-              </div>
-              <div class="circ">
-                <img
-                  src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1964&q=80"
-                  alt=""
-                />
-              </div>
-              <div class="circ">
-                <img
-                  src="https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1887&q=80"
-                  alt=""
-                />
-              </div>
+            <div className="image_wrapper">
+              <img src={sponsor2} alt="" />
             </div>
-          </div>
-          <div className="top">
-            <div className="img-cnt marquee">
-              <div className="img">
-                <img src={sponsor1} alt="" />
-              </div>
-              <div className="img">
-                <img src={sponsor2} alt="" />
-              </div>
-              <div className="img">
-                <img src={sponsor3} alt="" />
-              </div>
-              <div className="img">
-                <img src={sponsor4} alt="" />
-              </div>
-              <div className="img">
-                <img src={sponsor5} alt="" />
-              </div>
-              <div className="img">
-                <img src={sponsor6} alt="" />
-              </div>
-              <div className="img">
-                <img src={sponsor1} alt="" />
-              </div>
-              <div className="img">
-                <img src={sponsor2} alt="" />
-              </div>
-              <div className="img">
-                <img src={sponsor3} alt="" />
-              </div>
-              <div className="img">
-                <img src={sponsor4} alt="" />
-              </div>
-              <div className="img">
-                <img src={sponsor5} alt="" />
-              </div>
-              <div className="img">
-                <img src={sponsor6} alt="" />
-              </div>
+            <div className="image_wrapper">
+              <img src={sponsor3} alt="" />
             </div>
-          </div>
-          <div className="top">
-            <div className="img-cnt marquee-2">
-              <div className="img">
-                <img src={sponsor6} alt="" />
-              </div>
-              <div className="img">
-                <img src={sponsor5} alt="" />
-              </div>
-              <div className="img">
-                <img src={sponsor4} alt="" />
-              </div>
-              <div className="img">
-                <img src={sponsor3} alt="" />
-              </div>
-              <div className="img">
-                <img src={sponsor2} alt="" />
-              </div>
-              <div className="img">
-                <img src={sponsor1} alt="" />
-              </div>
-              <div className="img">
-                <img src={sponsor6} alt="" />
-              </div>
-              <div className="img">
-                <img src={sponsor5} alt="" />
-              </div>
-              <div className="img">
-                <img src={sponsor4} alt="" />
-              </div>
-              <div className="img">
-                <img src={sponsor3} alt="" />
-              </div>
-              <div className="img">
-                <img src={sponsor2} alt="" />
-              </div>
-              <div className="img">
-                <img src={sponsor1} alt="" />
-              </div>
+            <div className="image_wrapper">
+              <img src={sponsor4} alt="" />
             </div>
-          </div>
+            <div className="image_wrapper">
+              <img src={sponsor5} alt="" />
+            </div>
+            <div className="image_wrapper">
+              <img src={sponsor6} alt="" />
+            </div>
+            <div className="image_wrapper">
+              <img src={sponsor1} alt="" />
+            </div>
+            <div className="image_wrapper">
+              <img src={sponsor2} alt="" />
+            </div>
+            <div className="image_wrapper">
+              <img src={sponsor3} alt="" />
+            </div>
+            <div className="image_wrapper">
+              <img src={sponsor4} alt="" />
+            </div>
+            <div className="image_wrapper">
+              <img src={sponsor5} alt="" />
+            </div>
+            <div className="image_wrapper">
+              <img src={sponsor6} alt="" />
+            </div>
+          </Marquee>
+          <Marquee direction="left" speed={100}>
+            <div className="image_wrapper">
+              <img src={sponsor1} alt="" />
+            </div>
+            <div className="image_wrapper">
+              <img src={sponsor2} alt="" />
+            </div>
+            <div className="image_wrapper">
+              <img src={sponsor3} alt="" />
+            </div>
+            <div className="image_wrapper">
+              <img src={sponsor4} alt="" />
+            </div>
+            <div className="image_wrapper">
+              <img src={sponsor5} alt="" />
+            </div>
+            <div className="image_wrapper">
+              <img src={sponsor6} alt="" />
+            </div>
+            <div className="image_wrapper">
+              <img src={sponsor1} alt="" />
+            </div>
+            <div className="image_wrapper">
+              <img src={sponsor2} alt="" />
+            </div>
+            <div className="image_wrapper">
+              <img src={sponsor3} alt="" />
+            </div>
+            <div className="image_wrapper">
+              <img src={sponsor4} alt="" />
+            </div>
+            <div className="image_wrapper">
+              <img src={sponsor5} alt="" />
+            </div>
+            <div className="image_wrapper">
+              <img src={sponsor6} alt="" />
+            </div>
+          </Marquee>
         </div>
         {/* footer */}
       </div>
