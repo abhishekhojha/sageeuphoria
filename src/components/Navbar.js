@@ -67,12 +67,12 @@ export default function Navbar() {
                 </Link>
               </li>
               <li>
-                <Link onClick={handleNav} to="/events">
+                <Link onClick={handleNav} to="/Events">
                   EVENTS
                 </Link>
               </li>
               <li >
-                <Link onClick={handleNav} to="/gallery">
+                <Link onClick={handleNav} to="/Gallery">
                   GALLERY
                 </Link>
               </li>
@@ -101,12 +101,12 @@ export default function Navbar() {
             </Link>
           </li>
           <li>
-            <Link to="/events">
+            <Link to="/Events">
               EVENTS
             </Link>
           </li>
           <li >
-            <Link onClick={handleNav} to="/gallery">
+            <Link onClick={handleNav} to="/Gallery">
               GALLERY
             </Link>
           </li>
