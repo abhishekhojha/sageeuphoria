@@ -10,7 +10,7 @@ export default function Gallery() {
   useEffect(() => {
     // window.scrollTo(0, 0);
     console.log(imgdata);
-  }, [imgdata, SlideshowLightbox]);
+  }, [imgdata]);
   const loadmore = () => {
     var val = ((count + 1) * 9) - 1;
     let skip = val - 9 <= 0 ? val - 8 : val - 9;

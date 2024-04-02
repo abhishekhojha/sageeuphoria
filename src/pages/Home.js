@@ -83,14 +83,9 @@ export default function Home() {
           </Reveal>
           <Reveal>
             <div className="sagepassesintro">
-              <h3>Rhythm & Beats on 29th March</h3>
+              <h3>Rhythm & Beats on 19th April/20th April</h3>
               <p>
-                Get ready to groove to the electrifying beats of Zaeden and DJ
-                Perch as SAGE Euphoria, the first edition of the annual college
-                fest of SAGE university, Indore, presents its much-awaited night
-                concert on 29th March 2023. Brace yourselves for an
-                unforgettable musical journey as the two renowned DJs take the
-                stage and set it on fire with their explosive performances.
+                Prepare to be mesmerised by the explosive performances of AKHIL SACHDEVA and DJ RHEA as SAGE Euphoria, the first edition of SAGE University's annual college fest, offers its highly anticipated night concerts on April 19th and 20th, 2024. Prepare for an incredible musical trip as these renowned performers take the stage and excite the crowd with their electrifying performances. Prepare for an exciting encounter that will leave you wanting more!
               </p>
               <a href="/#" className="sagebuttons">
                 Get your passes
