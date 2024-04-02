@@ -10,7 +10,7 @@ export default function Gallery() {
   useEffect(() => {
     // window.scrollTo(0, 0);
     console.log(imgdata);
-  }, [imgdata,SlideshowLightbox]);
+  }, [imgdata, SlideshowLightbox]);
   const loadmore = () => {
     var skip = count * 9;
     var val = (count + 1) * 9;
@@ -32,14 +32,15 @@ export default function Gallery() {
         <div className="px-4">
           <SlideshowLightbox className="container grid grid-cols-2 px-2 md:grid-cols-3 gap-2 mx-auto">
             {imgdata?.map((img) => (
-              <img key={img.id} className="w-full rounded" src={img.imageSrc} />
+              <img
+                key={img.id}
+                className="h-full object-cover w-full rounded"
+                src={img.imageSrc}
+              />
             ))}
           </SlideshowLightbox>
           <button onClick={loadmore}>Load more</button>
         </div>
-            {/* {imgdata?.map((img) => (
-              <img height="100" key={img.id} className="w-full rounded" src={img.imageSrc} />
-            ))} */}
       </div>
     </>
   );
