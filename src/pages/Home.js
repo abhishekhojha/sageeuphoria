@@ -8,7 +8,7 @@ import sponsor6 from "./img/upsc.png";
 import Reveal from "../anime/Animation";
 import YReveal from "../anime/Y";
 import XReveal from "../anime/X";
-import ImageSlider from "../anime/slider"
+import ImageSlider from "../anime/slider";
 export default function Home() {
   useEffect(() => {
     window.scrollTo(0, 0);
@@ -48,8 +48,8 @@ export default function Home() {
           <div className="sageheaderconthead">
             <h1>SAGE EUPHORIA 2024</h1>
             <p>
-              Unleashing the Ultimate campus experience A celebration of
-              youth, talent, and creativity..
+              Unleashing the Ultimate campus experience A celebration of youth,
+              talent, and creativity..
             </p>
           </div>
         </Reveal>
@@ -64,29 +64,35 @@ export default function Home() {
                 <div className="sageeventsaboutusCon">
                   {/* <h2>SAGE Euphoria'24</h2> */}
                   <p>
-                    Welcome to Sage EUPHORIA 2024, the dynamic sequel to our annual college fest hosted
-                    by SAGE University Indore. Building on the triumph of our inaugural event, we're excited
-                    to announce that SAGE EUPHORIA 2024 will run from April 18th to 20th, 2024.
-                    This three-day extravaganza guarantees a thrilling experience with live music, diverse
-                    events, and engaging activities for all interests. Anticipating a crowd of 15,000 and over
-                    2,500 participants, we aim to surpass last year's success.
-                    Prepare for an array of captivating events, forums, competitions, and tech showcases,
-                    culminating in a celebration of talent and innovation. Join us for an unforgettable
-                    experience!
+                    Welcome to Sage EUPHORIA 2024, the dynamic sequel to our
+                    annual college fest hosted by SAGE University Indore.
+                    Building on the triumph of our inaugural event, we're
+                    excited to announce that SAGE EUPHORIA 2024 will run from
+                    April 18th to 20th, 2024. This three-day extravaganza
+                    guarantees a thrilling experience with live music, diverse
+                    events, and engaging activities for all interests.
+                    Anticipating a crowd of 15,000 and over 2,500 participants,
+                    we aim to surpass last year's success. Prepare for an array
+                    of captivating events, forums, competitions, and tech
+                    showcases, culminating in a celebration of talent and
+                    innovation. Join us for an unforgettable experience!
                   </p>
                 </div>
               </div>
               <div className="sageeventsaboutusSecond">
                 <p>
-                  SAGE EUPHORIA 2024 revolves around "Panchtatv," celebrating the five foundational
-                  elements—earth, water, fire, air, and space—guiding our fest with profound symbolism.
-                  Integrating this theme enriches participant experiences across competitions. For
-                  example, the Battle of Bands embodies fire, igniting passion, while Dance Extravaganza
-                  reflects water's fluidity.
-                  The Entrepreneurship Conclave symbolizes earth's stability, Tech Talks delve into air's
-                  intangibility, and the VR Showcase embodies space's boundlessness. Each event
-                  intertwines with Panchtatva, fostering connections with nature and spirituality. Join us
-                  for a journey of exploration and self-discovery, guided by the harmony of the elements.
+                  SAGE EUPHORIA 2024 revolves around "Panchtatv," celebrating
+                  the five foundational elements—earth, water, fire, air, and
+                  space—guiding our fest with profound symbolism. Integrating
+                  this theme enriches participant experiences across
+                  competitions. For example, the Battle of Bands embodies fire,
+                  igniting passion, while Dance Extravaganza reflects water's
+                  fluidity. The Entrepreneurship Conclave symbolizes earth's
+                  stability, Tech Talks delve into air's intangibility, and the
+                  VR Showcase embodies space's boundlessness. Each event
+                  intertwines with Panchtatva, fostering connections with nature
+                  and spirituality. Join us for a journey of exploration and
+                  self-discovery, guided by the harmony of the elements.
                 </p>
               </div>
             </>
@@ -124,9 +130,17 @@ export default function Home() {
                 <div className="sagepassesconincon">
                   <h3>AKHIL SACHDEVA</h3>
                   <p>
-                    Akhil Sachdeva is a multi-talented Indian musician who wears many hats - singer, songwriter, and composer. He rose to fame with his soulful ballad "Humsafar" from the Bollywood film "Badrinath Ki Dulhania." Sachdeva's voice has captivated audiences, and his compositions have become chart-topping hits like "Tera Ban Jaunga" from "Kabir Singh."  Be prepared to be enthralled by his musical magic!
+                    Akhil Sachdeva is a multi-talented Indian musician who wears
+                    many hats - singer, songwriter, and composer. He rose to
+                    fame with his soulful ballad "Humsafar" from the Bollywood
+                    film "Badrinath Ki Dulhania." Sachdeva's voice has
+                    captivated audiences, and his compositions have become
+                    chart-topping hits like "Tera Ban Jaunga" from "Kabir
+                    Singh." Be prepared to be enthralled by his musical magic!
                   </p>
-                  <p>20<sup>th</sup> April At Sage university</p>
+                  <p>
+                    20<sup>th</sup> April At Sage university
+                  </p>
                 </div>
               </div>
             </XReveal>
@@ -155,9 +169,17 @@ export default function Home() {
                 <div className="sagepassesconincon">
                   <h3>DJ RHEA</h3>
                   <p>
-                    Hailing from the Indian electronic dance scene, DJ Rhea brings the party wherever she goes. A master of setting the mood, she seamlessly blends genres from Bollywood to EDM, keeping the dance floor packed with infectious energy.  Having performed at major events like IPL after-parties and music festivals, DJ Rhea is sure to get your feet moving and create an unforgettable experience.
+                    Hailing from the Indian electronic dance scene, DJ Rhea
+                    brings the party wherever she goes. A master of setting the
+                    mood, she seamlessly blends genres from Bollywood to EDM,
+                    keeping the dance floor packed with infectious energy.
+                    Having performed at major events like IPL after-parties and
+                    music festivals, DJ Rhea is sure to get your feet moving and
+                    create an unforgettable experience.
                   </p>
-                  <p>19<sup>th</sup> April At Sage university</p>
+                  <p>
+                    19<sup>th</sup> April At Sage university
+                  </p>
                 </div>
               </div>
             </YReveal>
@@ -174,42 +196,78 @@ export default function Home() {
             </Reveal>
             <div className="sageourteammembers">
               <Reveal>
-                <a target='_blank' rel="noreferrer" href="https://www.instagram.com/sanketjain29?igsh=MW9yc2d0NWc1N2wydQ==" className="sageourteammember">
+                <a
+                  target="_blank"
+                  rel="noreferrer"
+                  href="https://www.instagram.com/sanketjain29?igsh=MW9yc2d0NWc1N2wydQ=="
+                  className="sageourteammember"
+                >
                   <img src="./team/sanket.jpeg" alt="" />
                 </a>
                 <p>
-                  <a target='_blank' rel="noreferrer" href="https://www.instagram.com/sanketjain29?igsh=MW9yc2d0NWc1N2wydQ==">
+                  <a
+                    target="_blank"
+                    rel="noreferrer"
+                    href="https://www.instagram.com/sanketjain29?igsh=MW9yc2d0NWc1N2wydQ=="
+                  >
                     Sanket Jain
                   </a>
                 </p>
               </Reveal>
               <Reveal>
-                <a target='_blank' rel="noreferrer" href="https://www.instagram.com/nikhill.pandeyy?igsh=NmlxY3Uyd2pkenJr" className="sageourteammember">
+                <a
+                  target="_blank"
+                  rel="noreferrer"
+                  href="https://www.instagram.com/nikhill.pandeyy?igsh=NmlxY3Uyd2pkenJr"
+                  className="sageourteammember"
+                >
                   <img src="./team/nikhil.jpeg" alt="" />
                 </a>
                 <p>
-                  <a target='_blank' rel="noreferrer" href="https://www.instagram.com/nikhill.pandeyy?igsh=NmlxY3Uyd2pkenJr">
+                  <a
+                    target="_blank"
+                    rel="noreferrer"
+                    href="https://www.instagram.com/nikhill.pandeyy?igsh=NmlxY3Uyd2pkenJr"
+                  >
                     Nikhil Pandey
                   </a>
                 </p>
               </Reveal>
 
               <Reveal>
-                <a target='_blank' rel="noreferrer" href="https://www.instagram.com/iamarkansh?igsh=MTlwcjE5cjN5dmI4cg==" className="sageourteammember">
+                <a
+                  target="_blank"
+                  rel="noreferrer"
+                  href="https://www.instagram.com/iamarkansh?igsh=MTlwcjE5cjN5dmI4cg=="
+                  className="sageourteammember"
+                >
                   <img src="./team/arkansh.jpeg" alt="" />
                 </a>
                 <p>
-                  <a target='_blank' rel="noreferrer" href="https://www.instagram.com/iamarkansh?igsh=MTlwcjE5cjN5dmI4cg==">
+                  <a
+                    target="_blank"
+                    rel="noreferrer"
+                    href="https://www.instagram.com/iamarkansh?igsh=MTlwcjE5cjN5dmI4cg=="
+                  >
                     Arkansh Aryan
                   </a>
                 </p>
               </Reveal>
               <Reveal>
-                <a target='_blank' rel="noreferrer" href="https://www.instagram.com/_.nainaaa___/" className="sageourteammember">
+                <a
+                  target="_blank"
+                  rel="noreferrer"
+                  href="https://www.instagram.com/_.nainaaa___/"
+                  className="sageourteammember"
+                >
                   <img src="./team/naina.jpg" alt="" />
                 </a>
                 <p>
-                  <a target='_blank' rel="noreferrer" href="https://www.instagram.com/_.nainaaa___/">
+                  <a
+                    target="_blank"
+                    rel="noreferrer"
+                    href="https://www.instagram.com/_.nainaaa___/"
+                  >
                     Naina Rawat
                   </a>
                 </p>
@@ -224,6 +282,168 @@ export default function Home() {
               <h2>SPONSORS</h2>
             </div>
           </Reveal>
+          <div id="elem">
+            <div id="elem1">
+              <div class="circ">
+                <img
+                  src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1964&q=80"
+                  alt=""
+                />
+              </div>
+              <div class="circ">
+                <img
+                  src="https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1887&q=80"
+                  alt=""
+                />
+              </div>
+              <div class="circ">
+                <img
+                  src="https://images.unsplash.com/photo-1531746020798-e6953c6e8e04?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1964&q=80"
+                  alt=""
+                />
+              </div>
+              <div class="circ">
+                <img
+                  src="https://images.unsplash.com/photo-1544005313-94ddf0286df2?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1888&q=80"
+                  alt=""
+                />
+              </div>
+              <div class="circ">
+                <img
+                  src="https://images.unsplash.com/photo-1552374196-c4e7ffc6e126?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1887&q=80"
+                  alt=""
+                />
+              </div>
+              <div class="circ">
+                <img
+                  src="https://images.unsplash.com/photo-1570158268183-d296b2892211?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1887&q=80"
+                  alt=""
+                />
+              </div>
+              <div class="circ">
+                <img
+                  src="https://images.unsplash.com/photo-1502823403499-6ccfcf4fb453?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1887&q=80"
+                  alt=""
+                />
+              </div>
+              <div class="circ">
+                <img
+                  src="https://images.unsplash.com/photo-1500336624523-d727130c3328?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1887&q=80"
+                  alt=""
+                />
+              </div>
+              <div class="circ">
+                <img
+                  src="https://images.unsplash.com/photo-1528892952291-009c663ce843?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1888&q=80"
+                  alt=""
+                />
+              </div>
+              <div class="circ">
+                <img
+                  src="https://images.unsplash.com/photo-1488161628813-04466f872be2?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1964&q=80"
+                  alt=""
+                />
+              </div>
+              <div class="circ">
+                <img
+                  src="https://images.unsplash.com/photo-1493106819501-66d381c466f1?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1887&q=80"
+                  alt=""
+                />
+              </div>
+              <div class="circ">
+                <img
+                  src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1964&q=80"
+                  alt=""
+                />
+              </div>
+              <div class="circ">
+                <img
+                  src="https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1887&q=80"
+                  alt=""
+                />
+              </div>
+            </div>
+            <div id="elem1">
+              <div class="circ">
+                <img
+                  src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1964&q=80"
+                  alt=""
+                />
+              </div>
+              <div class="circ">
+                <img
+                  src="https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1887&q=80"
+                  alt=""
+                />
+              </div>
+              <div class="circ">
+                <img
+                  src="https://images.unsplash.com/photo-1531746020798-e6953c6e8e04?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1964&q=80"
+                  alt=""
+                />
+              </div>
+              <div class="circ">
+                <img
+                  src="https://images.unsplash.com/photo-1544005313-94ddf0286df2?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1888&q=80"
+                  alt=""
+                />
+              </div>
+              <div class="circ">
+                <img
+                  src="https://images.unsplash.com/photo-1552374196-c4e7ffc6e126?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1887&q=80"
+                  alt=""
+                />
+              </div>
+              <div class="circ">
+                <img
+                  src="https://images.unsplash.com/photo-1570158268183-d296b2892211?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1887&q=80"
+                  alt=""
+                />
+              </div>
+              <div class="circ">
+                <img
+                  src="https://images.unsplash.com/photo-1502823403499-6ccfcf4fb453?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1887&q=80"
+                  alt=""
+                />
+              </div>
+              <div class="circ">
+                <img
+                  src="https://images.unsplash.com/photo-1500336624523-d727130c3328?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1887&q=80"
+                  alt=""
+                />
+              </div>
+              <div class="circ">
+                <img
+                  src="https://images.unsplash.com/photo-1528892952291-009c663ce843?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1888&q=80"
+                  alt=""
+                />
+              </div>
+              <div class="circ">
+                <img
+                  src="https://images.unsplash.com/photo-1488161628813-04466f872be2?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1964&q=80"
+                  alt=""
+                />
+              </div>
+              <div class="circ">
+                <img
+                  src="https://images.unsplash.com/photo-1493106819501-66d381c466f1?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1887&q=80"
+                  alt=""
+                />
+              </div>
+              <div class="circ">
+                <img
+                  src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1964&q=80"
+                  alt=""
+                />
+              </div>
+              <div class="circ">
+                <img
+                  src="https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1887&q=80"
+                  alt=""
+                />
+              </div>
+            </div>
+          </div>
           <div className="top">
             <div className="img-cnt marquee">
               <div className="img">

@@ -293,6 +293,63 @@ p {
     }
 }
 
+/* Sponsers */
+#elem{
+    width: 100%;
+    height: 150px;
+    display: inline-block ;
+    /* background-color: chartreuse; */
+   overflow: hidden;
+    white-space: nowrap;
+
+}
+#elem1{
+    width: 100%;
+    height: 150px;
+    /* background-color: chartreuse; */
+    overflow-x: auto;
+    overflow-y: hidden;
+    animation-name: anim;
+    animation-duration: 10s;
+    display: inline-block;
+    overflow-x: auto;
+    overflow-y: hidden;
+    /* animation-delay: 1s; */
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    /* white-space: nowrap; */
+
+}
+.circ{
+    width: 127px;
+    height: 130px;
+    /* background-color: pink; */
+    border-radius: 50%;
+    display: inline-block;
+    margin-left: 20px;
+    overflow: hidden;
+  
+ 
+}
+.circ img{
+    /* display: none; */
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+#elem1::-webkit-scrollbar{
+    display: none;
+}
+@keyframes anim {
+    0%{
+        transform: translateX(0%);
+    }
+    100%{
+        transform: translateX(-100%);
+    }
+    
+}
+
 @media screen and (max-width: 768px) {
     .img-cnt {
         width: 500%;
