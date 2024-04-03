@@ -89,7 +89,7 @@ export default function Home() {
                 <p>
                   Prepare to be mesmerised by the explosive performances of AKHIL SACHDEVA and DJ RHEA as SAGE Euphoria, the first edition of SAGE University's annual college fest, offers its highly anticipated night concerts on April 19th and 20th, 2024. Prepare for an incredible musical trip as these renowned performers take the stage and excite the crowd with their electrifying performances. Prepare for an exciting encounter that will leave you wanting more!
                 </p>
-                <a href="/#" className="sagebuttons">
+                <a href="/#" className="sagepassesintrobutton">
                   Get your passes
                 </a>
               </div>

@@ -28,7 +28,7 @@ body {
   left: 0%;
   right: 0%;
   filter: invert(1);
-  background-repeat: no-repeat;
+  background-repeat: repeat;
   object-fit: cover;
 }
 a{
