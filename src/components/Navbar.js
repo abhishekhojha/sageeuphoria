@@ -23,7 +23,7 @@ export default function Navbar() {
   }
   return (
     <>
-      <nav className="sageNavbar relative sageNavbarMobile z-30">
+      <nav className="sageNavbar relative sageNavbarMobile z-20">
         <Link to="/" className="sageNavLogo">
           <img className="SageEuphoriaLogo" src={SageEuphoriaLogo} alt="" />
         </Link>

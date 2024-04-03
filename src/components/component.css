@@ -63,7 +63,6 @@
 .sageNavbar {
   width: 100%;
   /* position: fixed; */
-  z-index: 2;
   color: white;
   justify-content: space-between;
   padding: 1vmax 3vmax;
