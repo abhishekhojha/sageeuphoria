@@ -174,7 +174,7 @@ export default function Home() {
             </Reveal>
             <Reveal>
               <div className="galleryImage">
-                <img src="gallery.png" alt="" />
+                <img src="Gallery.png" alt="" />
               </div>
             </Reveal>
             <Reveal>
