@@ -76,7 +76,7 @@ export default function Home() {
           </Reveal>
         </div>
         {/* sage passes  */}
-        <div className="z-10 relative sagepassesbg py-[30px] md:py-[20px] bg-[#b72723]">
+        <div className="z-10 relative sagepassesbg py-[30px] mt-16 md:py-[20px] bg-[#b72723]">
           <div className="container sagepasses">
             <Reveal>
               <div className="sagepasseshead">
