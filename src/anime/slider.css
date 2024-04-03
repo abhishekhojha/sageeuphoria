@@ -50,7 +50,7 @@ main {
 
 @media only screen and (max-width: 425px) {
   .slider-container .slider {
-    height: 150px;
+    height: 170px;
   }
 }
 
