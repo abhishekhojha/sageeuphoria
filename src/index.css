@@ -17,8 +17,7 @@ body {
 }
 .sage-texture__difference {
   z-index: 1;
-  opacity: .6;
-  color: var(--black);
+  opacity: .4;
   background-image: url("./components/img/backbody.jpg");
   background-position: 0 0;
   width: 100%;
@@ -86,6 +85,11 @@ ul.sageNavigation li a {
 }
 ul.sageNavigation li a:hover{
   color: var(--para);
+}
+@media screen and (max-width: 768px) {
+  .sage-texture__difference {
+    background-image: url("./components/img/backbodymob.jpg");
+  }
 }
 @media screen and (min-width: 768px) {
   .container {
