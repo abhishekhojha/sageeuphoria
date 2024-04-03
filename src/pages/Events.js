@@ -14,7 +14,7 @@ export default function Events() {
                 <Reveal>
                     <div className="sageEventsHead">
                         <h2>Events</h2>
-                        <p>In the creative wilderness, clients <br />find our work truly beloved.</p>
+                        {/* <p>In the creative wilderness, clients <br />find our work truly beloved.</p> */}
                     </div>
                 </Reveal>
                 <div className="sageEventsup sageEventsRight">
