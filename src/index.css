@@ -15,22 +15,6 @@ body {
   background: #efefef;
   background-image: u;
 }
-.sage-texture__difference {
-  z-index: 1;
-  opacity: .2;
-  background-image: url("./components/img/backbody.jpg");
-  background-position: 0 0;
-  width: 100%;
-  height: 100%;
-  position: fixed;
-  top: 0%;
-  bottom: 0%;
-  left: 0%;
-  right: 0%;
-  filter: invert(1);
-  background-repeat: repeat;
-  object-fit: cover;
-}
 a{
   text-decoration: none;
   color: inherit;

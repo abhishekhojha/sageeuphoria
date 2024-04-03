@@ -120,7 +120,6 @@ p {
   font-size: 15px;
   font-weight: 500;
 }
-
 .sageeventsaboutusfirst {
   display: grid;
   align-items: center;
@@ -130,11 +129,6 @@ p {
 
 .sageeventsaboutusSecond {
   padding-top: 20px;
-}
-
-.sagepassesbg {
-  background-image: url("./components/img/grains.png");
-  background-size: 33%;
 }
 
 .sagepasses h2 {
@@ -363,11 +357,6 @@ p {
   .sageheaderconthead {
     padding: 20px;
   }
-
-  .sagepassesbg {
-    background-size: 100%;
-  }
-
   .sageheadercontBtn {
     flex-direction: column;
     gap: 15px;

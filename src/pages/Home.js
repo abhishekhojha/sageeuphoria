@@ -21,59 +21,61 @@ export default function Home() {
         <div className="sageheader">
           <ImageSlider />
         </div>
-        <Reveal>
-          <div className="sageheaderconthead relative z-10">
-            <h1>SAGE EUPHORIA 2024</h1>
-            <p>
-              Unleashing the Ultimate campus experience A celebration of youth,
-              talent, and creativity..
-            </p>
-          </div>
-        </Reveal>
-        {/* sage aboutus */}
-        <div className="sageeventsaboutus z-10 relative container">
+        <div className="z-10 sageeventsaboutusbg relative ">
           <Reveal>
-            <>
-              <div className="sageeventsaboutusfirst">
-                <div className="sageeventsaboutusImage">
-                  <img src="./about.jpg" alt="" />
+            <div className="sageheaderconthead relative z-10">
+              <h1>SAGE EUPHORIA 2024</h1>
+              <p>
+                Unleashing the Ultimate campus experience A celebration of youth,
+                talent, and creativity..
+              </p>
+            </div>
+          </Reveal>
+          {/* sage aboutus */}
+          <div className="sageeventsaboutus container">
+            <Reveal>
+              <>
+                <div className="sageeventsaboutusfirst">
+                  <div className="sageeventsaboutusImage">
+                    <img src="./about.jpg" alt="" />
+                  </div>
+                  <div className="sageeventsaboutusCon">
+                    {/* <h2>SAGE Euphoria'24</h2> */}
+                    <p>
+                      Welcome to Sage EUPHORIA 2024, the dynamic sequel to our
+                      annual college fest hosted by SAGE University Indore.
+                      Building on the triumph of our inaugural event, we're
+                      excited to announce that SAGE EUPHORIA 2024 will run from
+                      April 18th to 20th, 2024. This three-day extravaganza
+                      guarantees a thrilling experience with live music, diverse
+                      events, and engaging activities for all interests.
+                      Anticipating a crowd of 15,000 and over 2,500 participants,
+                      we aim to surpass last year's success. Prepare for an array
+                      of captivating events, forums, competitions, and tech
+                      showcases, culminating in a celebration of talent and
+                      innovation. Join us for an unforgettable experience!
+                    </p>
+                  </div>
                 </div>
-                <div className="sageeventsaboutusCon">
-                  {/* <h2>SAGE Euphoria'24</h2> */}
+                <div className="sageeventsaboutusSecond">
                   <p>
-                    Welcome to Sage EUPHORIA 2024, the dynamic sequel to our
-                    annual college fest hosted by SAGE University Indore.
-                    Building on the triumph of our inaugural event, we're
-                    excited to announce that SAGE EUPHORIA 2024 will run from
-                    April 18th to 20th, 2024. This three-day extravaganza
-                    guarantees a thrilling experience with live music, diverse
-                    events, and engaging activities for all interests.
-                    Anticipating a crowd of 15,000 and over 2,500 participants,
-                    we aim to surpass last year's success. Prepare for an array
-                    of captivating events, forums, competitions, and tech
-                    showcases, culminating in a celebration of talent and
-                    innovation. Join us for an unforgettable experience!
+                    SAGE EUPHORIA 2024 revolves around "Panchtatv," celebrating
+                    the five foundational elements—earth, water, fire, air, and
+                    space—guiding our fest with profound symbolism. Integrating
+                    this theme enriches participant experiences across
+                    competitions. For example, the Battle of Bands embodies fire,
+                    igniting passion, while Dance Extravaganza reflects water's
+                    fluidity. The Entrepreneurship Conclave symbolizes earth's
+                    stability, Tech Talks delve into air's intangibility, and the
+                    VR Showcase embodies space's boundlessness. Each event
+                    intertwines with Panchtatva, fostering connections with nature
+                    and spirituality. Join us for a journey of exploration and
+                    self-discovery, guided by the harmony of the elements.
                   </p>
                 </div>
-              </div>
-              <div className="sageeventsaboutusSecond">
-                <p>
-                  SAGE EUPHORIA 2024 revolves around "Panchtatv," celebrating
-                  the five foundational elements—earth, water, fire, air, and
-                  space—guiding our fest with profound symbolism. Integrating
-                  this theme enriches participant experiences across
-                  competitions. For example, the Battle of Bands embodies fire,
-                  igniting passion, while Dance Extravaganza reflects water's
-                  fluidity. The Entrepreneurship Conclave symbolizes earth's
-                  stability, Tech Talks delve into air's intangibility, and the
-                  VR Showcase embodies space's boundlessness. Each event
-                  intertwines with Panchtatva, fostering connections with nature
-                  and spirituality. Join us for a journey of exploration and
-                  self-discovery, guided by the harmony of the elements.
-                </p>
-              </div>
-            </>
-          </Reveal>
+              </>
+            </Reveal>
+          </div>
         </div>
         {/* sage passes  */}
         <div className="z-10 relative sagepassesbg py-[30px] mt-16 md:py-[20px] bg-[#b72723]">
@@ -98,28 +100,6 @@ export default function Home() {
               <XReveal>
                 <div className="sagepassesconin p-[20px]">
                   <div className="sagepassesconinImage">
-                    <img src="./artist/1.jpg" alt="" />
-                  </div>
-                  <div className="sagepassesconincon">
-                    <h3>AKHIL SACHDEVA</h3>
-                    <p>
-                      Akhil Sachdeva is a multi-talented Indian musician who wears
-                      many hats - singer, songwriter, and composer. He rose to
-                      fame with his soulful ballad "Humsafar" from the Bollywood
-                      film "Badrinath Ki Dulhania." Sachdeva's voice has
-                      captivated audiences, and his compositions have become
-                      chart-topping hits like "Tera Ban Jaunga" from "Kabir
-                      Singh." Be prepared to be enthralled by his musical magic!
-                    </p>
-                    <p>
-                      20<sup>th</sup> April At Sage university
-                    </p>
-                  </div>
-                </div>
-              </XReveal>
-              <YReveal>
-                <div className="sagepassesconin p-[20px]">
-                  <div className="sagepassesconinImage">
                     <img src="./artist/2.jpg" alt="" />
                   </div>
                   <div className="sagepassesconincon">
@@ -135,6 +115,28 @@ export default function Home() {
                     </p>
                     <p>
                       19<sup>th</sup> April At Sage university
+                    </p>
+                  </div>
+                </div>
+              </XReveal>
+              <YReveal>
+                <div className="sagepassesconin p-[20px]">
+                  <div className="sagepassesconinImage">
+                    <img src="./artist/1.jpg" alt="" />
+                  </div>
+                  <div className="sagepassesconincon">
+                    <h3>AKHIL SACHDEVA</h3>
+                    <p>
+                      Akhil Sachdeva is a multi-talented Indian musician who wears
+                      many hats - singer, songwriter, and composer. He rose to
+                      fame with his soulful ballad "Humsafar" from the Bollywood
+                      film "Badrinath Ki Dulhania." Sachdeva's voice has
+                      captivated audiences, and his compositions have become
+                      chart-topping hits like "Tera Ban Jaunga" from "Kabir
+                      Singh." Be prepared to be enthralled by his musical magic!
+                    </p>
+                    <p>
+                      20<sup>th</sup> April At Sage university
                     </p>
                   </div>
                 </div>
