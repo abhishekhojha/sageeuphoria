@@ -27,9 +27,6 @@ export default function Gallery() {
         <Reveal>
           <div className="sageEventsHead">
             <h2>Gallery</h2>
-            <p>
-              In the creative wilderness, clients find our work truly beloved.
-            </p>
           </div>
         </Reveal>
 
