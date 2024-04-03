@@ -17,11 +17,12 @@ export default function Home() {
   return (
     <>
       <div>
+        <div class="sage-texture__difference"></div>
         <div className="sageheader">
           <ImageSlider />
         </div>
         <Reveal>
-          <div className="sageheaderconthead">
+          <div className="sageheaderconthead relative z-10">
             <h1>SAGE EUPHORIA 2024</h1>
             <p>
               Unleashing the Ultimate campus experience A celebration of youth,
@@ -30,7 +31,7 @@ export default function Home() {
           </div>
         </Reveal>
         {/* sage aboutus */}
-        <div className="sageeventsaboutus container">
+        <div className="sageeventsaboutus z-10 relative container">
           <Reveal>
             <>
               <div className="sageeventsaboutusfirst">
@@ -75,73 +76,75 @@ export default function Home() {
           </Reveal>
         </div>
         {/* sage passes  */}
-        <div className="container sagepasses">
-          <Reveal>
-            <div className="sagepasseshead">
-              <h2>Get your passes</h2>
-            </div>
-          </Reveal>
-          <Reveal>
-            <div className="sagepassesintro">
-              <h3>Rhythm & Beats on 19th April/20th April</h3>
-              <p>
-                Prepare to be mesmerised by the explosive performances of AKHIL SACHDEVA and DJ RHEA as SAGE Euphoria, the first edition of SAGE University's annual college fest, offers its highly anticipated night concerts on April 19th and 20th, 2024. Prepare for an incredible musical trip as these renowned performers take the stage and excite the crowd with their electrifying performances. Prepare for an exciting encounter that will leave you wanting more!
-              </p>
-              <a href="/#" className="sagebuttons">
-                Get your passes
-              </a>
-            </div>
-          </Reveal>
-          <div className="sagepassescon">
-            <XReveal>
-              <div className="sagepassesconin">
-                <div className="sagepassesconinImage">
-                  <img src="./artist/1.jpg" alt="" />
-                </div>
-                <div className="sagepassesconincon">
-                  <h3>AKHIL SACHDEVA</h3>
-                  <p>
-                    Akhil Sachdeva is a multi-talented Indian musician who wears
-                    many hats - singer, songwriter, and composer. He rose to
-                    fame with his soulful ballad "Humsafar" from the Bollywood
-                    film "Badrinath Ki Dulhania." Sachdeva's voice has
-                    captivated audiences, and his compositions have become
-                    chart-topping hits like "Tera Ban Jaunga" from "Kabir
-                    Singh." Be prepared to be enthralled by his musical magic!
-                  </p>
-                  <p>
-                    20<sup>th</sup> April At Sage university
-                  </p>
-                </div>
+        <div className="z-10 relative sagepassesbg bg-[#b72723]">
+          <div className="container sagepasses">
+            <Reveal>
+              <div className="sagepasseshead">
+                <h2>Get your passes</h2>
               </div>
-            </XReveal>
-            <YReveal>
-              <div className="sagepassesconin">
-                <div className="sagepassesconinImage">
-                  <img src="./artist/2.jpg" alt="" />
-                </div>
-                <div className="sagepassesconincon">
-                  <h3>DJ RHEA</h3>
-                  <p>
-                    Hailing from the Indian electronic dance scene, DJ Rhea
-                    brings the party wherever she goes. A master of setting the
-                    mood, she seamlessly blends genres from Bollywood to EDM,
-                    keeping the dance floor packed with infectious energy.
-                    Having performed at major events like IPL after-parties and
-                    music festivals, DJ Rhea is sure to get your feet moving and
-                    create an unforgettable experience.
-                  </p>
-                  <p>
-                    19<sup>th</sup> April At Sage university
-                  </p>
-                </div>
+            </Reveal>
+            <Reveal>
+              <div className="sagepassesintro">
+                <h3>Rhythm & Beats on 19th April/20th April</h3>
+                <p>
+                  Prepare to be mesmerised by the explosive performances of AKHIL SACHDEVA and DJ RHEA as SAGE Euphoria, the first edition of SAGE University's annual college fest, offers its highly anticipated night concerts on April 19th and 20th, 2024. Prepare for an incredible musical trip as these renowned performers take the stage and excite the crowd with their electrifying performances. Prepare for an exciting encounter that will leave you wanting more!
+                </p>
+                <a href="/#" className="sagebuttons">
+                  Get your passes
+                </a>
               </div>
-            </YReveal>
+            </Reveal>
+            <div className="sagepassescon">
+              <XReveal>
+                <div className="sagepassesconin">
+                  <div className="sagepassesconinImage">
+                    <img src="./artist/1.jpg" alt="" />
+                  </div>
+                  <div className="sagepassesconincon">
+                    <h3>AKHIL SACHDEVA</h3>
+                    <p>
+                      Akhil Sachdeva is a multi-talented Indian musician who wears
+                      many hats - singer, songwriter, and composer. He rose to
+                      fame with his soulful ballad "Humsafar" from the Bollywood
+                      film "Badrinath Ki Dulhania." Sachdeva's voice has
+                      captivated audiences, and his compositions have become
+                      chart-topping hits like "Tera Ban Jaunga" from "Kabir
+                      Singh." Be prepared to be enthralled by his musical magic!
+                    </p>
+                    <p>
+                      20<sup>th</sup> April At Sage university
+                    </p>
+                  </div>
+                </div>
+              </XReveal>
+              <YReveal>
+                <div className="sagepassesconin">
+                  <div className="sagepassesconinImage">
+                    <img src="./artist/2.jpg" alt="" />
+                  </div>
+                  <div className="sagepassesconincon">
+                    <h3>DJ RHEA</h3>
+                    <p>
+                      Hailing from the Indian electronic dance scene, DJ Rhea
+                      brings the party wherever she goes. A master of setting the
+                      mood, she seamlessly blends genres from Bollywood to EDM,
+                      keeping the dance floor packed with infectious energy.
+                      Having performed at major events like IPL after-parties and
+                      music festivals, DJ Rhea is sure to get your feet moving and
+                      create an unforgettable experience.
+                    </p>
+                    <p>
+                      19<sup>th</sup> April At Sage university
+                    </p>
+                  </div>
+                </div>
+              </YReveal>
+            </div>
           </div>
         </div>
 
         {/* our team */}
-        <div id="team" className="container sageourteam">
+        <div id="team" className="container relative z-10 sageourteam">
           <div className="sageourteamin">
             <Reveal>
               <div className="sageourteamhead">
@@ -230,7 +233,7 @@ export default function Home() {
           </div>
         </div>
         {/* sponsers */}
-        <div id="sponsors" className="main">
+        <div id="sponsors" className="main relative z-10">
           <Reveal>
             <div className="sageourteamhead">
               <h2>SPONSORS</h2>

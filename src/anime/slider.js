@@ -89,7 +89,7 @@ const ImageSlider = () => {
 
   return (
     <main>
-      <div className="slider-container container">
+      <div className="slider-container z-10 container">
         <div className="slider">
           <AnimatePresence initial={false} custom={direction}>
             <motion.div
@@ -118,7 +118,7 @@ const ImageSlider = () => {
         </div> */}
       </div>
 
-      <div className="thumbnails container">
+      {/* <div className="thumbnails container">
         {IMAGES.map(image => (
           <div
             key={image.id}
@@ -132,7 +132,7 @@ const ImageSlider = () => {
             />
           </div>
         ))}
-      </div>
+      </div> */}
     </main>
   )
 }
