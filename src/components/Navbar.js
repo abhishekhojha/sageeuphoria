@@ -23,7 +23,7 @@ export default function Navbar() {
   }
   return (
     <>
-      <nav className="sageNavbar relative sageNavbarMobile z-10">
+      <nav className="sageNavbar relative sageNavbarMobile z-30">
         <Link to="/" className="sageNavLogo">
           <img className="SageEuphoriaLogo" src={SageEuphoriaLogo} alt="" />
         </Link>
@@ -60,7 +60,7 @@ export default function Navbar() {
               ></path>
               <path className="line" d="M7 16 27 16"></path>
             </svg>
-            <ul className="sageSideNav z-30">
+            <ul className="sageSideNav ">
               <li>
                 <Link onClick={handleNav} to="/">
                   HOME
