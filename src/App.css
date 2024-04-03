@@ -30,6 +30,7 @@ h6 {
 }
 
 .sageheaderconthead h1 {
+  text-align: center;
   font-size: 55px;
   font-family: "Unbounded", sans-serif;
 }
@@ -379,10 +380,6 @@ p {
   .sageeventsaboutus,
   .sagepasses {
     padding: 20px;
-  }
-
-  .sageeventsaboutus {
-    padding-top: 100px;
   }
 
   .sagepasseshead h2,
