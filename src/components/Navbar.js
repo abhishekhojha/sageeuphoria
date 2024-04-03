@@ -60,7 +60,7 @@ export default function Navbar() {
               ></path>
               <path className="line" d="M7 16 27 16"></path>
             </svg>
-            <ul className="sageSideNav">
+            <ul className="sageSideNav z-20">
               <li>
                 <Link onClick={handleNav} to="/">
                   HOME
