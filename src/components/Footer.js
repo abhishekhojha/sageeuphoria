@@ -5,7 +5,7 @@ import linkedin from "./img/linkedin.png";
 import call from "./img/call.png";
 export default function Footer() {
     return <>
-        <div id="contacts" className="container relative z-10 sagefooter">
+        <div id="contacts" className="container relative z-10 pb-16 md:pb-32 sagefooter">
             <div className="sagefooterIn">
                 <div className="sagefooterInAddress">
                     <img src={addr} alt="" className="invertimage" />

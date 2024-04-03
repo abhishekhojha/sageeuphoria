@@ -8,9 +8,11 @@ export default function Gallery() {
   const [count, setcount] = useState(1);
   const limit = Math.ceil(gallery.length/9);
   useEffect(() => {
-    // window.scrollTo(0, 0);
     console.log(imgdata);
   }, [imgdata]);
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
   const loadmore = () => {
     var val = ((count + 1) * 9) - 1;
     let skip = val - 9 <= 0 ? val - 8 : val - 9;
@@ -40,7 +42,7 @@ export default function Gallery() {
                   {images?.map((img) => (
                     <img
                       key={img.id}
-                      className="h-full object-cover w-full rounded"
+                      className="h-[150px] md:h-full object-cover w-full rounded"
                       src={img.imageSrc}
                       alt=""
                     />

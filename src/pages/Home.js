@@ -10,6 +10,8 @@ import YReveal from "../anime/Y";
 import XReveal from "../anime/X";
 import ImageSlider from "../anime/slider";
 import Marquee from "react-fast-marquee";
+import SecondBtn from "../components/SecondBtn"
+import { Link } from "react-router-dom";
 export default function Home() {
   useEffect(() => {
     window.scrollTo(0, 0);
@@ -145,6 +147,43 @@ export default function Home() {
           </div>
         </div>
 
+        {/* register now */}
+
+        <div className="sageRegister">
+          <Reveal>
+            <div className="container p-[20px] pt-16 md:p-[0] md:py-6 md:pt-32">
+              <div className="sagepasseshead">
+                <h2 className="">Register Now</h2>
+              </div>
+              <p className="text-center mt-4">Get ready to ignite your senses at SAGE Euphoria 2024!Mark your calendars for April 18th-20th as we bring you the ultimate extravaganza of the year, back and bigger than ever before! With the electrifying performances of Akhil Sachdeva and DJ Rhea, get ready to groove all night long! But that's not all - brace yourselves for 35+ epic events including Fashion Shows, Dance-offs, Singing showdowns, Treasure Hunts, Online Gaming, E-sports, and much more! Don't miss out on the thrill, join us for an unforgettable experience at SAGE University, Indore!</p>
+              <div className="flex flex-col py-8 items-center justify-center gap-2 md:flex-row">
+                <a className="sagebuttons" target="_blank" rel="noreferrer" href="https://linktr.ee/sage.euphoria">Register</a>
+                <Link className="sagebuttons" to="/Events">Explore Events</Link>
+              </div>
+            </div>
+          </Reveal>
+        </div>
+
+        {/* Gallery */}
+        <div className="gallerybg bg-[#b72723] p-[20px]">
+          <div className="gallerSageIn container py-16 md:py-32">
+            <Reveal>
+              <div className="sagepasseshead mb-8">
+                <h2 className="text-[#ffa42c] outlined_text">2023 Recap</h2>
+              </div>
+            </Reveal>
+            <Reveal>
+              <div className="galleryImage">
+                <img src="gallery.png" alt="" />
+              </div>
+            </Reveal>
+            <Reveal>
+              <div className="flex align-center justify-center py-6">
+                <SecondBtn />
+              </div>
+            </Reveal>
+          </div>
+        </div>
         {/* our team */}
         <div id="team" className="container relative z-10 sageourteam">
           <div className="sageourteamin">
