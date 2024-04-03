@@ -341,7 +341,9 @@ p {
   .sageheaderconthead {
     padding: 20px;
   }
-
+  .sagepassesbg{
+    background-size: 50%;
+  }
   .sageheadercontBtn {
     flex-direction: column;
     gap: 15px;
