@@ -15,9 +15,9 @@ export default function Navbar() {
   const scrollToBottom = () => {
     window.scrollTo(0, document.body.scrollHeight);
   }
-  const scrollToTeam = () => {
-    window.scrollTo(0, 425 * 6);
-  }
+  // const scrollToTeam = () => {
+  //   window.scrollTo(0, 425 * 6);
+  // }
   const scrollToSponsors = () => {
     window.scrollTo(0, 3200);
   }
