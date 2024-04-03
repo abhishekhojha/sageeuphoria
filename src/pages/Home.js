@@ -76,7 +76,7 @@ export default function Home() {
           </Reveal>
         </div>
         {/* sage passes  */}
-        <div className="z-10 relative sagepassesbg bg-[#b72723]">
+        <div className="z-10 relative sagepassesbg py-[30px] md:py-[20px] bg-[#b72723]">
           <div className="container sagepasses">
             <Reveal>
               <div className="sagepasseshead">
@@ -96,7 +96,7 @@ export default function Home() {
             </Reveal>
             <div className="sagepassescon">
               <XReveal>
-                <div className="sagepassesconin">
+                <div className="sagepassesconin p-[20px]">
                   <div className="sagepassesconinImage">
                     <img src="./artist/1.jpg" alt="" />
                   </div>
@@ -118,7 +118,7 @@ export default function Home() {
                 </div>
               </XReveal>
               <YReveal>
-                <div className="sagepassesconin">
+                <div className="sagepassesconin p-[20px]">
                   <div className="sagepassesconinImage">
                     <img src="./artist/2.jpg" alt="" />
                   </div>
