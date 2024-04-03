@@ -90,7 +90,7 @@ export default function Navbar() {
           </label>
         </div>
       </nav>
-      <nav className="sageNavbar relative sageNavbarDesktop z-10">
+      <nav className="sageNavbar relative sageNavbarDesktop z-20">
         <Link to="/" className="sageNavLogo">
           <img className="SageEuphoriaLogo" src={SageEuphoriaLogo} alt="" />
         </Link>
