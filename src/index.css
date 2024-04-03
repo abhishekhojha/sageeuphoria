@@ -17,7 +17,7 @@ body {
 }
 .sage-texture__difference {
   z-index: 1;
-  opacity: .4;
+  opacity: .2;
   background-image: url("./components/img/backbody.jpg");
   background-position: 0 0;
   width: 100%;
