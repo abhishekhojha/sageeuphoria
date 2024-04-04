@@ -3,7 +3,7 @@ export default function AnimBtn() {
     return (
         <>
             <div className="fixed bottom-4 right-4 z-20">
-                <a href="https://linktr.ee/sage.euphoria" target="_blank" rel="noreferrer" class="link">
+                <a href="https://securegw.paytm.in/link/paymentForm/76113/LL_685845813" target="_blank" rel="noreferrer" class="link">
                     <svg viewBox='0 0 200 200' width='200' height='200' xmlns='http://www.w3.org/2000/svg' class="link__svg" aria-labelledby="link1-title link1-desc">
                         <title id="link1-title">Get your passes now</title>
                         <desc id="link1-desc"></desc>
