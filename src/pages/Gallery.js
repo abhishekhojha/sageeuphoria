@@ -39,7 +39,7 @@ export default function Gallery() {
                   {images?.map((img) => (
                     <img
                       key={img.id}
-                      className="h-[150px] md:h-full object-cover w-full rounded"
+                      className="h-[150px] lg:h-full object-cover w-full rounded"
                       src={img.imageSrc}
                       alt=""
                     />
