@@ -276,7 +276,7 @@ export default function Home() {
         {/* sponsers */}
         <div id="sponsors" className="main relative z-10">
           <Reveal>
-            <div className="sageourteamhead">
+            <div className="sageourteamhead pb-4">
               <h2>SPONSORS</h2>
             </div>
           </Reveal>
