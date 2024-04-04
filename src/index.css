@@ -58,6 +58,7 @@ ul.sageNavigation {
   display: flex;
   gap: 35px;
   transition: 0.5s all;
+  align-items: center;
 }
 ul.sageNavigation li{
   list-style: none;

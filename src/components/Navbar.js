@@ -4,6 +4,8 @@ import Fire from "./img/Fire.svg";
 import Earth from "./img/earth.svg";
 import Water from "./img/water.svg";
 import Ether from "./img/Ether.svg";
+import insta from "./img/insta.png";
+
 import SageEuphoriaLogo from "./img/logoSAGE.png";
 import { Link } from "react-router-dom";
 export default function Navbar() {
@@ -76,15 +78,15 @@ export default function Navbar() {
                   GALLERY
                 </Link>
               </li>
-              <li onClick={scrollToSponsors}>
-                <Link onClick={handleNav} to="">
-                  SPONSORS
-                </Link>
-              </li>
               <li onClick={scrollToBottom}>
                 <Link onClick={handleNav} to="">
                   CONTACT
                 </Link>
+              </li>
+              <li>
+                <div className="sagefooterInSocial">
+                  <a href="https://www.instagram.com/sage.euphoria?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" target="_blank" rel="noreferrer"><img src={insta} alt=""></img></a>
+                </div>
               </li>
             </ul>
           </label>
@@ -110,15 +112,15 @@ export default function Navbar() {
               GALLERY
             </Link>
           </li>
-          <li onClick={scrollToSponsors}>
-            <Link to="">
-              SPONSORS
-            </Link>
-          </li>
           <li onClick={scrollToBottom}>
             <Link to="">
               CONTACT
             </Link>
+          </li>
+          <li>
+            <div className="sagefooterInSocial">
+              <a href="https://www.instagram.com/sage.euphoria?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" target="_blank" rel="noreferrer"><img src={insta} alt=""></img></a>
+            </div>
           </li>
         </ul>
       </nav>

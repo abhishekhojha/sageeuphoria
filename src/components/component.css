@@ -176,6 +176,7 @@ a.sageNavLogo {
   align-items: center;
   justify-content: center;
   font-size: 4vmax;
+  gap: 5px;
 }
 
 .sageSideNav li,
@@ -191,7 +192,9 @@ a.sageNavLogo {
   letter-spacing: 0;
   list-style: outside;
 }
-
+.sageNavbar .sagefooterInSocial{
+  width: 30px;
+} 
 @media screen and (max-width: 768px) {
   .sagefooterIn {
     flex-direction: column;
