@@ -190,7 +190,7 @@ p {
   display: grid;
   gap: 10px;
   padding-top: 20px;
-  height: 350px;
+  height: 300px;
 }
 
 .sagepassesconinImage {
@@ -330,18 +330,17 @@ p {
 }
 
 @media screen and (max-width: 1023px) {
-  .sagepassescon {
-    grid-template-columns: 1fr;
-  }
-
-  .sagepassesconin .sagepassesconincon {
-    height: 100%;
+  p {
+    font-size: 12px;
   }
 }
 
-@media screen and (max-width: 1023px) {
-  p {
-    font-size: 12px;
+@media screen and (max-width: 767px) {
+  .sagepassesconin .sagepassesconincon {
+    height: 100%;
+  }
+  .sagepassescon {
+    grid-template-columns: 1fr;
   }
 }
 @media screen and (max-width: 1024px) {
