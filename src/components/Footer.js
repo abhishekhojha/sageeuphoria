@@ -5,7 +5,7 @@ import linkedin from "./img/linkedin.png";
 import call from "./img/call.png";
 export default function Footer() {
     return <>
-        <div className="border-y-2 border-black border-solid pb-8 md:pb-16 my-32">
+        <div className="border-y-2 border-black border-solid py-4 md:py-8 my-32">
             <div id="contacts" className="container relative z-10 sagefooter">
                 <div className="sagefooterIn">
                     <div className="sagefooterInAddress">
