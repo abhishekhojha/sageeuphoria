@@ -48,7 +48,7 @@ export default function Gallery() {
                 </SlideshowLightbox>
               )
             })}
-            {limit>count?<button className="sagebuttons mt-2" onClick={loadmore}>Load more...</button>:<></>}
+            {limit>count?<div className="grid items-center justify-center py-6"><button className="sagebuttons mt-2" onClick={loadmore}>Load more...</button></div>:<></>}
           </>
         </div>
       </div >
