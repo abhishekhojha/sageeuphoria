@@ -14,15 +14,13 @@ export default function Navbar() {
   const handleNav = () => {
     setsideNav(!sideNav);
   };
-  const scrollToBottom = () => {
+  const scrollToBottom = (e) => {
+    e.preventDefault()
     window.scrollTo(0, document.body.scrollHeight);
   }
   // const scrollToTeam = () => {
   //   window.scrollTo(0, 425 * 6);
   // }
-  const scrollToSponsors = () => {
-    window.scrollTo(0, 3200);
-  }
   return (
     <>
       <nav className="sageNavbar relative sageNavbarMobile z-20">
@@ -78,8 +76,8 @@ export default function Navbar() {
                   GALLERY
                 </Link>
               </li>
-              <li onClick={scrollToBottom}>
-                <Link onClick={handleNav} to="">
+              <li onClick={handleNav}>
+                <Link onClick={scrollToBottom} to="/#">
                   CONTACT
                 </Link>
               </li>
@@ -112,8 +110,8 @@ export default function Navbar() {
               GALLERY
             </Link>
           </li>
-          <li onClick={scrollToBottom}>
-            <Link to="">
+          <li>
+            <Link onClick={scrollToBottom} to="/#">
               CONTACT
             </Link>
           </li>
