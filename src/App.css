@@ -339,6 +339,11 @@ p {
   }
 }
 
+@media screen and (max-width: 1023px) {
+  p {
+    font-size: 12px;
+  }
+}
 @media screen and (max-width: 1024px) {
   .sageheadercont {
     position: static;
@@ -355,10 +360,6 @@ p {
 
   .sageeventsaboutusCon h2 {
     font-size: 35px;
-  }
-
-  p {
-    font-size: 15px;
   }
 
   .sagepasseshead h2,
