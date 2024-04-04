@@ -39,7 +39,7 @@ export default function Home() {
               <>
                 <div className="sageeventsaboutusfirst">
                   <div className="sageeventsaboutusImage">
-                    <img src="./about.jpg" alt="" />
+                    <img src="./about.png" alt="" />
                   </div>
                   <div className="sageeventsaboutusCon">
                     {/* <h2>SAGE Euphoria'24</h2> */}
