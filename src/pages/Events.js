@@ -37,7 +37,7 @@ export default function Events() {
                                         <li>Group Dance. (Bliss)</li>
                                         <li>Dance battle. (face-Off)</li>
                                     </ul>
-                                    <button className="sagebuttons">REGISTER NOW</button>
+                                    <a target="_blank" rel="noreferrer" href="https://linktr.ee/sage.euphoria" className="sagebuttons">REGISTER NOW</a>
                                 </div>
                             </YReveal>
                         </div>
@@ -62,7 +62,7 @@ export default function Events() {
                                         <li>Rap Battle.</li>
                                         <li>DJ Hunt.</li>
                                     </ul>
-                                    <button className="sagebuttons">REGISTER NOW</button>
+                                    <a target="_blank" rel="noreferrer" href="https://linktr.ee/sage.euphoria" className="sagebuttons">REGISTER NOW</a>
                                 </div>
                             </XReveal>
                         </div>
@@ -91,7 +91,7 @@ export default function Events() {
                                         <li>Stage Play.</li>
                                         <li>Improv.</li>
                                     </ul>
-                                    <button className="sagebuttons">REGISTER NOW</button>
+                                    <a target="_blank" rel="noreferrer" href="https://linktr.ee/sage.euphoria" className="sagebuttons">REGISTER NOW</a>
                                 </div>
                             </YReveal>
                         </div>
@@ -111,7 +111,7 @@ export default function Events() {
                                         <li>Story Telling.</li>
                                         <li>Slam Poetry.Stand Up.</li>
                                     </ul>
-                                    <button className="sagebuttons">REGISTER NOW</button>
+                                    <a target="_blank" rel="noreferrer" href="https://linktr.ee/sage.euphoria" className="sagebuttons">REGISTER NOW</a>
                                 </div>
                             </XReveal>
                         </div>
@@ -141,7 +141,7 @@ export default function Events() {
                                         <li>Sneaker Designing.</li>
                                         <li>Rapid Fine Arts.</li>
                                     </ul>
-                                    <button className="sagebuttons">REGISTER NOW</button>
+                                    <a target="_blank" rel="noreferrer" href="https://linktr.ee/sage.euphoria" className="sagebuttons">REGISTER NOW</a>
                                 </div>
                             </YReveal>
                         </div>
@@ -161,7 +161,7 @@ export default function Events() {
                                         <li>Modelling.</li>
                                         <li>Cosplay</li>
                                     </ul>
-                                    <button className="sagebuttons">REGISTER NOW</button>
+                                    <a target="_blank" rel="noreferrer" href="https://linktr.ee/sage.euphoria" className="sagebuttons">REGISTER NOW</a>
                                 </div>
                             </XReveal>
                         </div>
@@ -191,7 +191,7 @@ export default function Events() {
                                         <li>Rapid Fire.</li>
                                         <li>Talent Hunt.</li>
                                     </ul>
-                                    <button className="sagebuttons">REGISTER NOW</button>
+                                    <a target="_blank" rel="noreferrer" href="https://linktr.ee/sage.euphoria" className="sagebuttons">REGISTER NOW</a>
                                 </div>
                             </YReveal>
                         </div>
@@ -211,7 +211,7 @@ export default function Events() {
                                         <li>Reel Making.</li>
                                         <li>Photography.</li>
                                     </ul>
-                                    <button className="sagebuttons">REGISTER NOW</button>
+                                    <a target="_blank" rel="noreferrer" href="https://linktr.ee/sage.euphoria" className="sagebuttons">REGISTER NOW</a>
                                 </div>
                             </XReveal>
                         </div>
@@ -240,7 +240,7 @@ export default function Events() {
                                         <li>Creators Conclave.</li>
                                         <li>Tech Talks.</li>
                                     </ul>
-                                    <button className="sagebuttons">REGISTER NOW</button>
+                                    <a target="_blank" rel="noreferrer" href="https://linktr.ee/sage.euphoria" className="sagebuttons">REGISTER NOW</a>
                                 </div>
                             </YReveal>
                         </div>
@@ -262,7 +262,7 @@ export default function Events() {
                                         <li>Robo Race.</li>
                                         <li>E-Sports.</li>
                                     </ul>
-                                    <button className="sagebuttons">REGISTER NOW</button>
+                                    <a target="_blank" rel="noreferrer" href="https://linktr.ee/sage.euphoria" className="sagebuttons">REGISTER NOW</a>
                                 </div>
                             </XReveal>
                         </div>
