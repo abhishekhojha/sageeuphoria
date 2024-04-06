@@ -126,7 +126,7 @@ export default function Events() {
                     <div className="sageEventsIn">
                         <div className="sageEventsImage">
                             <XReveal>
-                                <img src="./events/events.png" alt=""></img>
+                                <img src="./events/fineArts.jpg" alt=""></img>
                             </XReveal>
                         </div>
                         <div className="sageEventsCon">
@@ -176,7 +176,7 @@ export default function Events() {
                     <div className="sageEventsIn">
                         <div className="sageEventsImage">
                             <XReveal>
-                                <img src="./events/events.png" alt=""></img>
+                                <img src="./events/litArts.jpg" alt=""></img>
                             </XReveal>
                         </div>
                         <div className="sageEventsCon">
@@ -226,7 +226,7 @@ export default function Events() {
                     <div className="sageEventsIn">
                         <div className="sageEventsImage">
                             <XReveal>
-                                <img src="./events/events.png" alt=""></img>
+                                <img src="./events/conclave.jpg" alt=""></img>
                             </XReveal>
                         </div>
                         <div className="sageEventsCon">
@@ -268,7 +268,7 @@ export default function Events() {
                         </div>
                         <div className="sageEventsImage">
                             <YReveal>
-                                <img src="./events/events.png" alt=""></img>
+                                <img src="./events/tech.jpg" alt=""></img>
                             </YReveal>
                         </div>
                     </div>

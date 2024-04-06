@@ -93,3 +93,6 @@
         order: 1;
     }
 }
+.sageEventsImage img {
+    border-radius: 25px;
+}
