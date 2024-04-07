@@ -12,6 +12,9 @@ import ImageSlider from "../anime/slider";
 import Marquee from "react-fast-marquee";
 import SecondBtn from "../components/SecondBtn"
 import { Link } from "react-router-dom";
+import OurTeam from "../components/Ourteam";
+import { FaInstagram } from 'react-icons/fa';
+
 export default function Home() {
   useEffect(() => {
     window.scrollTo(0, 0);
@@ -19,7 +22,7 @@ export default function Home() {
   return (
     <>
       <div>
-        <div class="sage-texture__difference"></div>
+        <div className="sage-texture__difference"></div>
         <div className="sageheader">
           <ImageSlider />
         </div>
@@ -43,7 +46,7 @@ export default function Home() {
                   </div>
                   <div className="sageeventsaboutusCon">
                     {/* <h2>SAGE Euphoria'24</h2> */}
-                    <p>
+                    <p className="text-justify">
                       Welcome to Sage EUPHORIA 2024, the dynamic sequel to our
                       annual college fest hosted by SAGE University Indore.
                       Building on the triumph of our inaugural event, we're
@@ -60,7 +63,7 @@ export default function Home() {
                   </div>
                 </div>
                 <div className="sageeventsaboutusSecond">
-                  <p>
+                  <p className="text-justify">
                     SAGE EUPHORIA 2024 revolves around "Panchtatv," celebrating
                     the five foundational elements—earth, water, fire, air, and
                     space—guiding our fest with profound symbolism. Integrating
@@ -100,35 +103,34 @@ export default function Home() {
             </Reveal>
             <div className="sagepassescon">
               <XReveal>
-                <div className="sagepassesconin p-[20px]">
-                  <div className="sagepassesconinImage">
+                <div className="sagepassesconin p-[20px] relative rounded-lg overflow-hidden">
+                  <div className="sagepassesconinImage relative rounded-lg overflow-hidden">
                     <img src="./artist/2.jpg" alt="" />
+                    <h3 className="absolute bottom-0 left-0 p-4 text-white bg-black bg-opacity-50 w-full text-center font-bold text-3xl">DJ RHEA</h3>
+                    <p className="absolute top-0 right-0 p-2 text-white bg-[#b72723] rounded-tl-md rounded-br-md">19<sup>th</sup> April</p>
+                    <div className="instagram-icon absolute top-0 left-0 w-full h-full flex items-center justify-center opacity-0 transition-opacity duration-300">
+                      <a href="https://www.instagram.com/djrhea?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" target="_blank" rel="noreferrer" className=""><FaInstagram className="text-[#d6249f] text-4xl" /></a>
+                    </div>
                   </div>
                   <div className="sagepassesconincon">
-                    <h3>DJ RHEA</h3>
-                    <p>
-                      Hailing from the Indian electronic dance scene, DJ Rhea
-                      brings the party wherever she goes. A master of setting the
-                      mood, she seamlessly blends genres from Bollywood to EDM,
-                      keeping the dance floor packed with infectious energy.
-                      Having performed at major events like IPL after-parties and
-                      music festivals, DJ Rhea is sure to get your feet moving and
-                      create an unforgettable experience.
-                    </p>
-                    <p>
-                      19<sup>th</sup> April At Sage university
+                    <p className="text-justify">
+                      Hailing from the Indian electronic dance scene, DJ Rhea brings the party wherever she goes. A master of setting the mood, she seamlessly blends genres from Bollywood to EDM, keeping the dance floor packed with infectious energy. Having performed at major events like IPL after-parties and music festivals, DJ Rhea is sure to get your feet moving and create an unforgettable experience.
                     </p>
                   </div>
                 </div>
               </XReveal>
               <YReveal>
-                <div className="sagepassesconin p-[20px]">
-                  <div className="sagepassesconinImage">
+                <div className="sagepassesconin p-[20px] relative rounded-lg overflow-hidden">
+                  <div className="sagepassesconinImage relative rounded-lg overflow-hidden">
                     <img src="./artist/1.jpg" alt="" />
+                    <h3 className="absolute bottom-0 left-0 p-4 text-white bg-black bg-opacity-50 w-full text-center font-bold text-3xl">AKHIL SACHDEVA</h3>
+                    <p className="absolute top-0 right-0 p-2 text-white bg-[#b72723] rounded-tl-md rounded-br-md">20<sup>th</sup> April</p>
+                    <div className="instagram-icon absolute top-0 left-0 w-full h-full flex items-center justify-center opacity-0 transition-opacity duration-300">
+                      <a href="https://www.instagram.com/sachdevaakhilnasha?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" target="_blank" rel="noreferrer" className=""><FaInstagram className="text-[#d6249f] text-4xl" /></a>
+                    </div>
                   </div>
                   <div className="sagepassesconincon">
-                    <h3>AKHIL SACHDEVA</h3>
-                    <p>
+                    <p className="text-justify">
                       Akhil Sachdeva is a multi-talented Indian musician who wears
                       many hats - singer, songwriter, and composer. He rose to
                       fame with his soulful ballad "Humsafar" from the Bollywood
@@ -136,9 +138,6 @@ export default function Home() {
                       captivated audiences, and his compositions have become
                       chart-topping hits like "Tera Ban Jaunga" from "Kabir
                       Singh." Be prepared to be enthralled by his musical magic!
-                    </p>
-                    <p>
-                      20<sup>th</sup> April At Sage university
                     </p>
                   </div>
                 </div>
@@ -188,89 +187,11 @@ export default function Home() {
         <div id="team" className="container relative z-10 sageourteam">
           <div className="sageourteamin">
             <Reveal>
-              <div className="sageourteamhead">
+              <div className="sageourteamhead m-8">
                 <h2>Our Team</h2>
               </div>
             </Reveal>
-            <div className="sageourteammembers">
-              <Reveal>
-                <a
-                  target="_blank"
-                  rel="noreferrer"
-                  href="https://www.instagram.com/sanketjain29?igsh=MW9yc2d0NWc1N2wydQ=="
-                  className="sageourteammember"
-                >
-                  <img src="./team/sanket.jpeg" alt="" />
-                </a>
-                <p>
-                  <a
-                    target="_blank"
-                    rel="noreferrer"
-                    href="https://www.instagram.com/sanketjain29?igsh=MW9yc2d0NWc1N2wydQ=="
-                  >
-                    Sanket Jain
-                  </a>
-                </p>
-              </Reveal>
-              <Reveal>
-                <a
-                  target="_blank"
-                  rel="noreferrer"
-                  href="https://www.instagram.com/nikhill.pandeyy?igsh=NmlxY3Uyd2pkenJr"
-                  className="sageourteammember"
-                >
-                  <img src="./team/nikhil.jpeg" alt="" />
-                </a>
-                <p>
-                  <a
-                    target="_blank"
-                    rel="noreferrer"
-                    href="https://www.instagram.com/nikhill.pandeyy?igsh=NmlxY3Uyd2pkenJr"
-                  >
-                    Nikhil Pandey
-                  </a>
-                </p>
-              </Reveal>
-
-              <Reveal>
-                <a
-                  target="_blank"
-                  rel="noreferrer"
-                  href="https://www.instagram.com/iamarkansh?igsh=MTlwcjE5cjN5dmI4cg=="
-                  className="sageourteammember"
-                >
-                  <img src="./team/arkansh.jpeg" alt="" />
-                </a>
-                <p>
-                  <a
-                    target="_blank"
-                    rel="noreferrer"
-                    href="https://www.instagram.com/iamarkansh?igsh=MTlwcjE5cjN5dmI4cg=="
-                  >
-                    Arkansh Aryan
-                  </a>
-                </p>
-              </Reveal>
-              <Reveal>
-                <a
-                  target="_blank"
-                  rel="noreferrer"
-                  href="https://www.instagram.com/_.nainaaa___/"
-                  className="sageourteammember"
-                >
-                  <img src="./team/naina.jpg" alt="" />
-                </a>
-                <p>
-                  <a
-                    target="_blank"
-                    rel="noreferrer"
-                    href="https://www.instagram.com/_.nainaaa___/"
-                  >
-                    Naina Rawat
-                  </a>
-                </p>
-              </Reveal>
-            </div>
+            <OurTeam />
           </div>
         </div>
         {/* sponsers */}

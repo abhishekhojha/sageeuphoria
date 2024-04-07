@@ -117,3 +117,35 @@ ul.sageNavigation li a:hover{
 	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);
 	background-color: #555;
 }
+
+
+
+.sagepassesconinImage {
+  position: relative;
+}
+
+.sagepassesconinImage img {
+  width: 100%;
+  height: auto;
+  transition: transform 0.3s ease;
+}
+
+.sagepassesconinImage:hover img {
+  transform: scale(1.05);
+}
+
+.sagepassesconincon p {
+  margin-bottom: 10px;
+}
+
+.sagepassesconincon p:last-child {
+  margin-bottom: 0;
+}
+
+.instagram-icon {
+  background-color: rgba(0, 0, 0, 0.7); /* Add contrast to the icon */
+}
+
+.sagepassesconinImage:hover .instagram-icon {
+  opacity: 1;
+}

@@ -8,9 +8,6 @@ export default function Gallery() {
   const [count, setcount] = useState(1);
   const limit = Math.ceil(gallery.length/9);
   useEffect(() => {
-    console.log(imgdata);
-  }, [imgdata]);
-  useEffect(() => {
     window.scrollTo(0, 0);
   }, []);
   const loadmore = () => {
@@ -33,7 +30,6 @@ export default function Gallery() {
         <div className="px-4">
           <>
             {imgdata?.map((images) => {
-              console.log(images)
               return (
                 < SlideshowLightbox className="container gallery_grid grid grid-cols-2 px-2 md:grid-cols-3 gap-2 mx-auto" >
                   {images?.map((img) => (
