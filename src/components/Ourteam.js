@@ -8,7 +8,7 @@ export default function OurTeam() {
         {OurTeamData ?
             OurTeamData.map((data) => {
                 return (
-                    <div className="relative flex flex-col text-gray-700 bg-white shadow-md bg-clip-border rounded-xl lg:w-[230px] xl:w-[250px]" key={data.name}>
+                    <div className="relative flex flex-col text-gray-700 bg-transparent shadow-md bg-clip-border rounded-xl lg:w-[230px] xl:w-[250px]" key={data.name}>
                     <div className="relative mx-4 mt-4 overflow-hidden text-gray-700 shadow-lg bg-clip-border rounded-xl">
                     <img src={data.src} alt="" />
                         <div className="social-icons">
