@@ -10,8 +10,8 @@ export default function OurTeam() {
             OurTeamData.map((data) => {
                 return (
                     <Reveal>
-                        <div className="relative flex flex-col text-gray-700 bg-transparent shadow-md bg-clip-border rounded-xl lg:w-[230px] xl:w-[250px]" key={data.name}>
-                            <div className="relative mx-4 mt-4 overflow-hidden text-gray-700 shadow-lg bg-clip-border rounded-xl">
+                        <div className="relative flex flex-col text-gray-700 bg-[#ffffff70] bg-clip-border rounded-xl lg:w-[230px] xl:w-[250px]" key={data.name}>
+                            <div className="relative mx-4 mt-4 overflow-hidden text-gray-700 bg-clip-border rounded-xl">
                                 <img src={data.src} alt="" />
                                 <div className="social-icons">
                                     <a href="#facebook" className="social-icon"><FaFacebook /></a>
