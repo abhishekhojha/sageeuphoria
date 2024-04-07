@@ -1,35 +1,47 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   font-family: "Open Sans", sans-serif;
 }
+
+html {
+  scroll-behavior: smooth;
+}
+
 :root {
   --head: #242424;
   --para: #4c4c4c;
 }
+
 body {
   background: #efefef;
   background-image: u;
 }
-a{
+
+a {
   text-decoration: none;
   color: inherit;
 }
+
 img {
   width: 100%;
   display: block;
 }
-.invertimage{
+
+.invertimage {
   filter: invert(1);
 }
-.container{
+
+.container {
   margin: 0 auto;
   margin-bottom: 20px;
 }
+
 .sagebuttons {
   max-width: 250px;
   padding: 12px 30px;
@@ -44,78 +56,88 @@ img {
   text-align: center;
   transition: all .5s;
 }
-.sagebuttons:hover{
+
+.sagebuttons:hover {
   box-shadow: inset 1px 1px 5px 1px #242424;
 
 }
-.sagefooterInContact a{
+
+.sagefooterInContact a {
   color: var(--para);
 }
-nav.sageNavbar.sageNavbarDesktop{
+
+nav.sageNavbar.sageNavbarDesktop {
   display: none;
 }
+
 ul.sageNavigation {
   display: flex;
   gap: 35px;
   transition: 0.5s all;
   align-items: center;
 }
-ul.sageNavigation li{
+
+ul.sageNavigation li {
   list-style: none;
 }
+
 ul.sageNavigation li a {
   font-family: "Unbounded";
   transition: cubic-bezier(0.19, 1, 0.22, 1) .5s;
   font-weight: 500;
 }
-ul.sageNavigation li a:hover{
+
+ul.sageNavigation li a:hover {
   color: var(--para);
 }
+
 @media screen and (max-width: 768px) {
   .sage-texture__difference {
     background-image: url("./components/img/backbodymob.jpg");
   }
 }
+
 @media screen and (min-width: 768px) {
   .container {
     width: 90%;
   }
-  nav.sageNavbar.sageNavbarMobile{
+
+  nav.sageNavbar.sageNavbarMobile {
     display: none;
   }
-  nav.sageNavbar.sageNavbarDesktop{
+
+  nav.sageNavbar.sageNavbarDesktop {
     display: flex;
   }
 }
+
 @media screen and (min-width: 1024px) {
   .container {
     width: 980px;
   }
 }
+
 @media screen and (min-width: 1280px) {
   .container {
     width: 1100px;
   }
 }
 
-::-webkit-scrollbar-track
-{
-	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
-	border-radius: 10px;
-	background-color: var(--head);
+::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+  border-radius: 10px;
+  background-color: var(--head);
 }
 
-::-webkit-scrollbar
-{
-	width: 12px;
-	background-color: #F5F5F5;
+::-webkit-scrollbar {
+  width: 12px;
+  background-color: #F5F5F5;
 }
 
-::-webkit-scrollbar-thumb
-{
-	border-radius: 10px;
-	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);
-	background-color: #555;
+::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, .3);
+  background-color: #555;
 }
 
 
@@ -143,7 +165,8 @@ ul.sageNavigation li a:hover{
 }
 
 .instagram-icon {
-  background-color: rgba(0, 0, 0, 0.7); /* Add contrast to the icon */
+  background-color: rgba(0, 0, 0, 0.7);
+  /* Add contrast to the icon */
 }
 
 .sagepassesconinImage:hover .instagram-icon {
