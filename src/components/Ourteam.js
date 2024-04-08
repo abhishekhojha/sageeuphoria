@@ -14,9 +14,9 @@ export default function OurTeam() {
                             <div className="relative mx-4 mt-4 overflow-hidden text-gray-700 bg-clip-border rounded-xl">
                                 <img src={data.src} alt="" />
                                 <div className="social-icons">
-                                    <a href="#facebook" className="social-icon"><FaFacebook /></a>
-                                    <a href="#twitter" className="social-icon"><FaTwitter /></a>
-                                    <a href={data.instagram} className="social-icon"><FaInstagram /></a>
+                                    <a href="#facebook" target="_blank" className="social-icon"><FaFacebook /></a>
+                                    <a href="#twitter" target="_blank" className="social-icon"><FaTwitter /></a>
+                                    <a href={data.instagram} target="_blank" className="social-icon"><FaInstagram /></a>
                                 </div>
                             </div>
                             <div className="p-6 text-center">

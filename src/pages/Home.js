@@ -173,7 +173,9 @@ export default function Home() {
             </Reveal>
             <Reveal>
               <div className="galleryImage">
+                <Link to="/Events">
                 <img src="Gallery.png" alt="" />
+                </Link>
               </div>
             </Reveal>
             <Reveal>
