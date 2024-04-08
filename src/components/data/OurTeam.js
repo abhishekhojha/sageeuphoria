@@ -1,7 +1,7 @@
 export const OurTeamData = [
     {
-        name:"Sanket Jain",
-        Des:"Coordinator, SSAC",
+        name:"Prof. Sanket Jain",
+        Des:"Program Coordinator, SSAC",
         src:"./team/sanket.jpeg",
         instagram:"https://www.instagram.com/sanketjain29?igsh=MW9yc2d0NWc1N2wydQ=="
     },
