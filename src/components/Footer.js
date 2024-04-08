@@ -16,19 +16,11 @@ export default function Footer() {
                     <div className="sagefooterInContact">
                         <div className="contact">
                             <img src={call} alt="" className="invertimage" />
-                            <p>Sanket Jain &nbsp; &nbsp; &nbsp;&nbsp;&nbsp;:- <a href="tel:+919630902105">+91 9630902105</a></p>
+                            <p>Arkansh Aryan :- <a href="tel:+919264110100">+91 9264110100</a></p>
                         </div>
-                        {/* <div className="contact">
-                        <img src={call} alt="" className="invertimage"/>
-                        <p>Kunal Pandey :- <a href="tel:+918094295767">+91 8094295767</a></p>
-                    </div> */}
                         <div className="contact">
                             <img src={call} alt="" className="invertimage" />
                             <p>Nikhil Pandey &nbsp;&nbsp;:- <a href="tel:+918358863862">+91 8358863862</a></p>
-                        </div>
-                        <div className="contact">
-                            <img src={call} alt="" className="invertimage" />
-                            <p>Arkansh Aryan :- <a href="tel:+919264110100">+91 9264110100</a></p>
                         </div>
                     </div>
                 </div>

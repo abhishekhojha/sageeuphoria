@@ -1,7 +1,7 @@
 export const IMAGES = [
     {
         id: 0,
-        imageSrc:"./slider/1.png"
+        imageSrc:"./slider/1.jpeg"
     },
     {
         id: 1,
