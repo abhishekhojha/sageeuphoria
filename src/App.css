@@ -286,7 +286,7 @@ p {
 /* Sponsers */
 .sponsers-cnt{
   align-items: center;
-  /* padding: 0 10vmax; */
+  gap: 1vmax;
 }
 .spons-img{
   width: 10vmax;
