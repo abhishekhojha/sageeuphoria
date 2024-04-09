@@ -309,7 +309,6 @@ export default function Events() {
     )
 }
 function EventSlider(props) {
-    console.log(props.data)
     const data = props.data
     const length = props.data.length
     const gridStyle = {
