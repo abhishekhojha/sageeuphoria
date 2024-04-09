@@ -283,18 +283,6 @@ p {
   gap: 30px;
 }
 
-/* Sponsers */
-.sponsers-cnt{
-  align-items: center;
-  gap: 1vmax;
-}
-.spons-img{
-  width: 10vmax;
-}
-.spons-img img{
-  width: 100%;
-  filter: grayscale(1);
-}
 
 .image_wrapper {
   width: 150px;
@@ -311,7 +299,6 @@ p {
 
 .outlined_text {
   color: #000;
-  /* Unfortunately you can't use transparent here … */
   text-shadow:
     -1px -1px 0 #fff,
     1px -1px 0 #fff,
@@ -319,7 +306,6 @@ p {
     1px 1px 0 #fff
 }
 
-/* Real outline for modern browsers */
 @supports((text-stroke: 2px black) or (-webkit-text-stroke: 2px black)) {
   .outlined_text {
     color: transparent;

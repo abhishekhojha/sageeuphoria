@@ -1,18 +1,63 @@
 import "./component.css";
 import addr from "./img/addr.png";
-import insta from "./img/insta.png";
-import linkedin from "./img/linkedin.png";
+import Reveal from "../anime/Animation";
+import sponser1 from './sponsers/1.png';
+import sponser2 from './sponsers/2.png';
+import sponser3 from './sponsers/3.png';
+import sponser4 from './sponsers/4.png';
+import sponser5 from './sponsers/5.png';
+import sponser6 from './sponsers/6.png';
+import sponser7 from './sponsers/7.png';
+import sponser8 from './sponsers/8.png';
+import sponser9 from './sponsers/9.png';
 import call from "./img/call.png";
 export default function Footer() {
     return <>
-        <div className="border-y-2 border-black border-solid py-4 md:py-8 my-32">
+        {/* sponsers */}
+        <div id="sponsors" className="main relative z-10">
+            <Reveal>
+                <div className="sageourteamhead pb-4">
+                    <h2>SPONSORS</h2>
+                </div>
+            </Reveal>
+            <div className="grid items-center gap-8 p-[20px] md:px-0 grid-cols-3 md:grid-cols-5 justify-center container">
+                <Reveal><div className="spons-img">
+                    <img src={sponser1} alt="" />
+                </div></Reveal>
+                <Reveal><div className="spons-img">
+                    <img src={sponser2} alt="" />
+                </div></Reveal>
+                <Reveal><div className="spons-img">
+                    <img src={sponser3} alt="" />
+                </div></Reveal>
+                <Reveal><div className="spons-img">
+                    <img src={sponser4} alt="" />
+                </div></Reveal>
+                <Reveal><div className="spons-img">
+                    <img src={sponser5} alt="" />
+                </div></Reveal>
+                <Reveal><div className="spons-img">
+                    <img src={sponser6} alt="" />
+                </div></Reveal>
+                <Reveal><div className="spons-img">
+                    <img src={sponser7} alt="" />
+                </div></Reveal>
+                <Reveal><div className="spons-img">
+                    <img src={sponser8} alt="" />
+                </div></Reveal>
+                <Reveal><div className="spons-img">
+                    <img src={sponser9} alt="" />
+                </div></Reveal>
+            </div>
+        </div>
+        <div className="border-y-2 border-black border-solid py-4 md:py-8 mt-16 mb-32">
             <div id="contacts" className="container relative z-10 sagefooter">
                 <div className="sagefooterIn">
                     <div className="sagefooterInAddress">
                         <img src={addr} alt="" className="invertimage" />
                         <p>SAGE University,<br /> Kailod Kartal Rau Bypass Road,<br />Indore. 452020 (Madhya Pradesh)</p>
                     </div>
-                    
+
                     <div className="sagefooterInContact">
                         <div className="contact">
                             <img src={call} alt="" className="invertimage" />
