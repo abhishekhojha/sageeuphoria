@@ -105,7 +105,7 @@ export default function Home() {
               <XReveal>
                 <div className="sagepassesconin p-[20px] relative rounded-lg overflow-hidden">
                   <div className="sagepassesconinImage relative rounded-lg overflow-hidden">
-                    <img src="./artist/2.jpg" alt="" />
+                    <img src="./artist/rhea.jpg" alt="" />
                     <h3 className="absolute bottom-0 left-0 p-4 text-white bg-black bg-opacity-50 w-full text-center font-bold text-3xl">DJ RHEA</h3>
                     <p className="absolute top-0 right-0 p-2 text-white bg-[#b72723] rounded-tl-md rounded-br-md">19<sup>th</sup> April</p>
                     <div className="instagram-icon absolute top-0 left-0 w-full h-full flex items-center justify-center opacity-0 transition-opacity duration-300">
@@ -122,7 +122,7 @@ export default function Home() {
               <YReveal>
                 <div className="sagepassesconin p-[20px] relative rounded-lg overflow-hidden">
                   <div className="sagepassesconinImage relative rounded-lg overflow-hidden">
-                    <img src="./artist/1.jpg" alt="" />
+                    <img src="./artist/akhil.jpg" alt="" />
                     <h3 className="absolute bottom-0 left-0 p-4 text-white bg-black bg-opacity-50 w-full text-center font-bold text-3xl">AKHIL SACHDEVA</h3>
                     <p className="absolute top-0 right-0 p-2 text-white bg-[#b72723] rounded-tl-md rounded-br-md">20<sup>th</sup> April</p>
                     <div className="instagram-icon absolute top-0 left-0 w-full h-full flex items-center justify-center opacity-0 transition-opacity duration-300">
