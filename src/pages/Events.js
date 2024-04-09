@@ -4,20 +4,21 @@ import "./css/events.css"
 import XReveal from "../anime/X";
 import Reveal from "../anime/Animation";
 import YReveal from "../anime/Y";
+import { Sports, Tech, Cultural, Literary, Management } from "./data/Events.js"
 export default function Events() {
     useEffect(() => {
         window.scrollTo(0, 0)
-       }, []);
+    }, []);
     return (
         <>
             <div className="sageEvents container">
                 <Reveal>
-                    <div className="sageEventsHead">
+                    <div className="sageEventsHead flex flex-col items-center justify-center">
                         <h2>Events</h2>
-                        {/* <p>In the creative wilderness, clients <br />find our work truly beloved.</p> */}
+                        <h4 className='text-sm md:text-2xl leading-[35px] md:leading-[40px] text-center font-semibold'>Join the <span className='bg-[#b72723] p-2 text-white'>event and delight</span> in the joyous <br /> experience awaiting you.</h4>
                     </div>
                 </Reveal>
-                <div className="sageEventsup sageEventsRight">
+                {/* <div className="sageEventsup sageEventsRight">
                     <div className="sageEventsIn">
                         <div className="sageEventsImage">
                             <XReveal>
@@ -272,8 +273,59 @@ export default function Events() {
                             </YReveal>
                         </div>
                     </div>
+                </div> */}
+            </div>
+            <div className='eventsSlider'>
+                <div className='eventSliderCat p-8 bg-[#b72723]'>
+                    <h3 className='font-semibold text-[30px] text-center'>Sports</h3>
                 </div>
+                <EventSlider data={Sports} name="sports" />
+            </div>
+            <div className='eventsSlider mt-16'>
+                <div className='eventSliderCat p-8 bg-[#b72723]'>
+                    <h3 className='font-semibold text-[30px] text-center'>Technical</h3>
+                </div>
+                <EventSlider data={Tech} name="Tech" />
+            </div>
+            <div className='eventsSlider mt-16'>
+                <div className='eventSliderCat p-8 bg-[#b72723]'>
+                    <h3 className='font-semibold text-[30px] text-center'>Cultural</h3>
+                </div>
+                <EventSlider data={Cultural} name="Cultural" />
+            </div>
+            <div className='eventsSlider mt-16'>
+                <div className='eventSliderCat p-8 bg-[#b72723]'>
+                    <h3 className='font-semibold text-[30px] text-center'>Literary</h3>
+                </div>
+                <EventSlider data={Literary} name="Cultural" />
+            </div>
+            <div className='eventsSlider mt-16'>
+                <div className='eventSliderCat p-8 bg-[#b72723]'>
+                    <h3 className='font-semibold text-[30px] text-center'>Management</h3>
+                </div>
+                <EventSlider data={Management} name="Cultural" />
             </div>
         </>
     )
+}
+function EventSlider(props) {
+    console.log(props.data)
+    const data = props.data
+    const length = props.data.length
+    const gridStyle = {
+        display: 'grid',
+        gridTemplateColumns: "repeat(" + length + ", 300px)",
+        gap: '10px',
+    };
+    return (<>
+        <div className='eventsSlidermain relative overflow-hidden overflow-x-auto py-4 min-h-[450px]'>
+            <div className={'eventsSliderIn duration-1000 w-full absolute top-[30px] left-0'} style={gridStyle}>
+                {data ? data.map((data) => {
+                    return <div className='bg-black row-start-1 duration-500 hover:scale-105' key={data.id}>
+                        <a target="_blank" rel="noreferrer" href="https://linktr.ee/sage.euphoria"><img src={data.src} alt='' /></a>
+                    </div>
+                }) : ""}
+            </div>
+        </div>
+    </>)
 }

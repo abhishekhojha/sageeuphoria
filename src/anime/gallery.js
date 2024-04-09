@@ -5,7 +5,7 @@ export const gallery = [
   },
   {
     id: 2,
-    imageSrc: "/gallery/2.jpeg",
+    imageSrc: "/gallery/7.jpeg",
   },
   {
     id: 3,
@@ -25,7 +25,7 @@ export const gallery = [
   },
   {
     id: 7,
-    imageSrc: "/gallery/7.jpeg",
+    imageSrc: "/gallery/2.jpeg",
   },
   {
     id: 8,
@@ -33,11 +33,11 @@ export const gallery = [
   },
   {
     id: 9,
-    imageSrc: "/gallery/9.jpeg",
+    imageSrc: "/gallery/17.jpeg",
   },
   {
     id: 10,
-    imageSrc: "/gallery/10.jpeg",
+    imageSrc: "/gallery/20.jpeg",
   },
   {
     id: 11,
@@ -65,7 +65,7 @@ export const gallery = [
   },
   {
     id: 17,
-    imageSrc: "/gallery/17.jpeg",
+    imageSrc: "/gallery/9.jpeg",
   },
   {
     id: 18,
@@ -77,7 +77,7 @@ export const gallery = [
   },
   {
     id: 20,
-    imageSrc: "/gallery/20.jpeg",
+    imageSrc: "/gallery/10.jpeg",
   },
   {
     id: 21,

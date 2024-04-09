@@ -21,7 +21,7 @@
 .sageEvents {
     display: grid;
     gap: 20px;
-    padding-top: 100px;
+    padding-top: 30px;
 }
 
 .sageEventsImage {
@@ -53,6 +53,9 @@
 }
 .sageEventsHead{
     padding: 20px 0;
+}
+.sageEventsHead h4, .sageEventsHead h4 span {
+    font-family: 'Unbounded', sans-serif;
 }
 .sageEventsHead h2 {
     font-size: 120px;
@@ -95,4 +98,8 @@
 }
 .sageEventsImage img {
     border-radius: 25px;
+}
+.eventSliderCat h3{
+    color: #fff;
+    font-family: 'Unbounded', sans-serif;;
 }
