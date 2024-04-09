@@ -1,10 +1,4 @@
 import { useEffect } from "react";
-import sponsor1 from "./img/SI_Global.png";
-import sponsor2 from "./img/Intex.png";
-import sponsor3 from "./img/Gopal_Namkeen.png";
-import sponsor4 from "./img/Sage_Radio.jpg";
-import sponsor5 from "./img/Decathlon_Logo.png";
-import sponsor6 from "./img/upsc.png";
 import Reveal from "../anime/Animation";
 import YReveal from "../anime/Y";
 import XReveal from "../anime/X";
@@ -14,6 +8,15 @@ import SecondBtn from "../components/SecondBtn"
 import { Link } from "react-router-dom";
 import OurTeam from "../components/Ourteam";
 import { FaInstagram } from 'react-icons/fa';
+import sponser1 from './sponsers/1.png';
+import sponser2 from './sponsers/2.png';
+import sponser3 from './sponsers/3.png';
+import sponser4 from './sponsers/4.png';
+import sponser5 from './sponsers/5.png';
+import sponser6 from './sponsers/6.png';
+import sponser7 from './sponsers/7.png';
+import sponser8 from './sponsers/8.png';
+import sponser9 from './sponsers/9.png';
 
 export default function Home() {
   useEffect(() => {
@@ -203,7 +206,38 @@ export default function Home() {
               <h2>SPONSORS</h2>
             </div>
           </Reveal>
-          <Marquee direction="right" speed={100}>
+        <div className="sponsers-cnt flex justify-between container">
+          <div className="spons-img">
+            <img src={sponser1} alt="" />
+          </div>
+          <div className="spons-img">
+            <img src={sponser2} alt="" />
+          </div>
+          <div className="spons-img">
+            <img src={sponser3} alt="" />
+          </div>
+          <div className="spons-img">
+            <img src={sponser4} alt="" />
+          </div>
+          <div className="spons-img">
+            <img src={sponser5} alt="" />
+          </div>
+        </div>
+        <div className="sponsers-cnt flex justify-between container">
+          <div className="spons-img">
+            <img src={sponser6} alt="" />
+          </div>
+          <div className="spons-img">
+            <img src={sponser7} alt="" />
+          </div>
+          <div className="spons-img">
+            <img src={sponser8} alt="" />
+          </div>
+          <div className="spons-img">
+            <img src={sponser9} alt="" />
+          </div>
+        </div>
+          {/* <Marquee direction="right" speed={100}>
             <div className="image_wrapper">
               <img src={sponsor1} alt="" />
             </div>
@@ -278,7 +312,7 @@ export default function Home() {
             <div className="image_wrapper">
               <img src={sponsor6} alt="" />
             </div>
-          </Marquee>
+          </Marquee> */}
         </div>
         {/* footer */}
       </div>
