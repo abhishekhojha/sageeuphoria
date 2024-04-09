@@ -21,8 +21,7 @@ export default function Gallery() {
   const handleOverlay = (e) => {
     if (
       e.target.classList.value === "overlay" ||
-      e.target.classList.value === "close" ||
-      e.target.classList.value === "close-img"
+      e.target.classList.value === "close"
     ) {
       setImage(null);
     }
