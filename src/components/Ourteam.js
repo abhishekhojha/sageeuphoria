@@ -9,14 +9,14 @@ export default function OurTeam() {
         {OurTeamData ?
             OurTeamData.map((data) => {
                 return (
-                    <Reveal>
+                    <Reveal key={data.id}>
                         <div className="relative flex flex-col text-gray-700 bg-[#ffffff70] bg-clip-border rounded-xl lg:w-[230px] xl:w-[250px]" key={data.name}>
                             <div className="relative mx-4 mt-4 overflow-hidden text-gray-700 bg-clip-border rounded-xl">
                                 <img src={data.src} alt="" />
                                 <div className="social-icons">
-                                    <a href="#facebook" target="_blank" className="social-icon"><FaFacebook /></a>
-                                    <a href="#twitter" target="_blank" className="social-icon"><FaTwitter /></a>
-                                    <a href={data.instagram} target="_blank" className="social-icon"><FaInstagram /></a>
+                                    <a href="#facebook" rel="noreferrer" target="_blank" className="social-icon"><FaFacebook /></a>
+                                    <a href="#twitter" rel="noreferrer" target="_blank" className="social-icon"><FaTwitter /></a>
+                                    <a href={data.instagram} rel="noreferrer" target="_blank" className="social-icon"><FaInstagram /></a>
                                 </div>
                             </div>
                             <div className="p-6 text-center">
