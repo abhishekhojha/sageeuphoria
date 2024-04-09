@@ -7,13 +7,8 @@ import AnimeBtn from "./components/AnimeBtn";
 import Events from "./pages/Events";
 import Footer from "./components/Footer";
 import Gallery from "./pages/Gallery";
-import {initLightboxJS} from 'lightbox.js-react'
-import 'lightbox.js-react/dist/index.css'
 
 function App() {
-  useEffect(() => {
-    initLightboxJS("Insert your License Key here", "Insert plan type here");
-  }, []);
   return (
       <BrowserRouter>
         <Navbar />

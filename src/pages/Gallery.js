@@ -1,7 +1,6 @@
 import { useEffect, useState } from "react";
 import "./css/gallery.css";
 import Reveal from "../anime/Animation";
-import { SlideshowLightbox } from "lightbox.js-react";
 import { gallery } from "../anime/gallery";
 export default function Gallery() {
   const [image, setImage] = useState(null);
