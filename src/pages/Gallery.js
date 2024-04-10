@@ -47,7 +47,9 @@ export default function Gallery() {
       <div className="sageEvents container">
         <Reveal>
           <div className="sageEventsHead">
-            <h2>Gallery</h2>
+            <h2 className="text-center">Gallery</h2>
+            <h4 className='text-sm md:text-2xl leading-[35px] md:leading-[40px] text-center font-semibold'>Explore a curated collection of captivating <br /><span className='bg-[#b72723] p-2 text-white'>artworks and photography</span> on our gallery page.</h4>
+            <p> </p>
           </div>
         </Reveal>
 
@@ -55,7 +57,8 @@ export default function Gallery() {
           <>
             {imgdata?.map((images,j) => {
               return (
-                <div key={j} className="container gallery_grid grid px-2 grid-cols-3 gap-2 mx-auto">
+                <Reveal >
+                <div className="container gallery_grid grid px-2 grid-cols-3 gap-2 mx-auto">
                   {images?.map((img,i) => (
                     <div key={img.id} className={i==2?"row-start-1	row-end-3 col-start-3":i==3?"row-start-3	row-end-5 col-start-1":""}>
                       <img
@@ -66,7 +69,7 @@ export default function Gallery() {
                       />
                     </div>
                   ))}
-                </div>
+                </div></Reveal>
               );
             })}
             {limit > count ? (
